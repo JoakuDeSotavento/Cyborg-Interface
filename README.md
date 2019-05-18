@@ -14,8 +14,26 @@ Joakinator is an interaface devoted to convert the languaje and signs of the hum
 
 ## Code
 
-## Presentations
+## Performanca using Joakinator
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6gCIS4RPDEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=s2cA5sRCxRI">
+   <img src="https://img.youtube.com/vi/s2cA5sRCxRI/0.jpg" alt="IMAGE ALT TEXT">
+  </a>
+</div>
+
+> El equilibrio reside en 3 puntos
+> Festival Ctrl Art Supr, Madrid, Marzo, 2019
+* [Link](https://arterobotico.com/el-equilibrio-reside-en-3-puntos/)
+ 
 
 
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=6gCIS4RPDEY">
+   <img src="https://img.youtube.com/vi/6gCIS4RPDEY/0.jpg" alt="IMAGE ALT TEXT">
+  </a>
+</div>
+
+> Interfaz Cyborg para reflexionar la tecnología
+> Encuentro Si fuese Tú, Facultad de Bellas Artes de Cuenca, UCLM, Abril, 2019
+* [Link](https://arterobotico.com/interfaz-ciborg-para-reflexionar-la-tecnologia/)
