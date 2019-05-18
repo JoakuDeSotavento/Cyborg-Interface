@@ -1,7 +1,9 @@
  # JOAKINATOR 
  ## physical interface for transforming the human body in the interface itself
 
-Joakinator alpha
+<img src="Assets/joakinator_apha_ba.png" width="900">
+
+> Joakinator alpha
 
 Key Words
 Interfaz corporal, Arte Ciborg, Performance, Propiocepción, Adaptar la tecnología al artista, dialogo con el otro, HCI
