@@ -1,5 +1,14 @@
  # JOAKINATOR 
  ## physical interface for transforming the human body in the interface itself
+ 
+ ## Team
+### JOAQUÍN ROBERTO DÍAZ DURÁN
+> PhD Researcher Universidad de Castilla-La Mancha
+### MARTA TIMÓN
+> M.C.S.
+### PEDRO LÓPEZ 
+> Ing. En Electrónica
+
 
 <img src="assets/joakinator_apha_ba.png" width="900">
 
@@ -37,3 +46,5 @@ Joakinator is an interaface devoted to convert the languaje and signs of the hum
 > Interfaz Cyborg para reflexionar la tecnología
 > Encuentro Si fuese Tú, Facultad de Bellas Artes de Cuenca, UCLM, Abril, 2019
 * [Link](https://arterobotico.com/interfaz-ciborg-para-reflexionar-la-tecnologia/)
+
+
