@@ -1,7 +1,7 @@
  # JOAKINATOR 
  ## physical interface for transforming the human body in the interface itself
 
-<img src="Assets/joakinator_apha_ba.png" width="900">
+<img src="assets/joakinator_apha_ba.png" width="900">
 
 > Joakinator alpha
 
