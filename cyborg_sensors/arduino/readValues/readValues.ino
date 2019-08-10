@@ -16,7 +16,7 @@
 int x = 0;                              // a place to hold pin values
 int ledpin = 13;
 
-int arraySen[] = {A0, A3, A4, A6};
+
 
 void setup()
 {
