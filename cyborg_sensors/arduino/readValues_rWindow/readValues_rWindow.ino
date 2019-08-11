@@ -1,3 +1,5 @@
+#include <CircularBuffer.h>
+
  /*  
  *  Arduino2Max
  *  Send pin values from Arduino to MAX/MSP
@@ -40,8 +42,6 @@ for (int pin= 0; pin<=7; pin++){      // Read and send analog pins 0-5
     x = analogRead(pin);
     sendValue (x);
     }
-
-
 
  
     Serial.println();                 // Send a carriage returnt to mark end of pin data. 
