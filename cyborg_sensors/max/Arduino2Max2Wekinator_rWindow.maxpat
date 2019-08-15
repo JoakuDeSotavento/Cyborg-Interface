@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1212.0, 569.0 ],
+		"rect" : [ 26.0, 85.0, 1212.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -312,7 +312,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
-					"items" : [ "COM5", ",", "COM7", ",", "COM8", ",", "usbmodem1411", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
+					"items" : [ "COM9", ",", "COM7", ",", "COM8", ",", "usbmodem1411", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -639,7 +639,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 77.0, 1212.0, 569.0 ],
+						"rect" : [ 42.0, 85.0, 769.0, 569.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2384,7 +2384,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -2994,9 +2993,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "" ],
-									"patching_rect" : [ 129.0, 365.0, 94.0, 19.0 ],
+									"patching_rect" : [ 129.0, 365.0, 91.0, 19.0 ],
 									"style" : "",
-									"text" : "serial e 115200 8 1 0"
+									"text" : "serial i 115200 8 1 0"
 								}
 
 							}
