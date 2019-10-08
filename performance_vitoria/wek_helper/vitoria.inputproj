@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<WekiInputHelperFileData>
+  <oscReceivePort>6448</oscReceivePort>
+  <oscSendPort>6449</oscSendPort>
+  <sendHostname>localhost</sendHostname>
+  <sendOscMessage>/wek/inputs</sendOscMessage>
+  <inputs>
+    <oscMessage>/wek/inputs</oscMessage>
+    <numInputs>8</numInputs>
+    <groupName>Inputs</groupName>
+    <inputNames>
+      <string>n1</string>
+      <string>n2</string>
+      <string>brazo Izq</string>
+      <string>Brazo der</string>
+      <string>tal_izq</string>
+      <string>tal_der</string>
+      <string>dedo</string>
+      <string>n3</string>
+    </inputNames>
+  </inputs>
+  <outputs>
+    <outputs class="linked-list">
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>brazo Izq_Avg10</name>
+        <index>2</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>Brazo der_Avg10</name>
+        <index>3</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>tal_izq_Avg10</name>
+        <index>4</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>tal_der_Avg10</name>
+        <index>5</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>dedo_Avg10</name>
+        <index>6</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+    </outputs>
+    <numOutputTypes>5</numOutputTypes>
+    <dimensionality>5</dimensionality>
+    <hasDependencies>false</hasDependencies>
+  </outputs>
+  <inputTriggerer class="wekiinputhelper.TriggerOnTimes">
+    <c>
+      <type>NONE</type>
+      <howLong>ONCE</howLong>
+      <index>0</index>
+      <val>0.0</val>
+      <appliesTo>INPUT</appliesTo>
+    </c>
+    <runningListener class="wekiinputhelper.InputTriggerer$1">
+      <outer-class class="wekiinputhelper.TriggerOnTimes" reference="../.."/>
+    </runningListener>
+    <numMs>100</numMs>
+  </inputTriggerer>
+  <isSendingOriginalInputs>false</isSendingOriginalInputs>
+</WekiInputHelperFileData>

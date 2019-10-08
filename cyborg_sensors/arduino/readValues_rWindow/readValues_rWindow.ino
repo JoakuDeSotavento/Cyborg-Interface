@@ -46,23 +46,23 @@ void loop()
   // if (Serial.read() == 'r') {       // If an 'r' is received then read the pins
   for (byte pin = 0; pin <= numSen; pin++) {  // Read and send analog pins 0-5
     x = analogRead(pin);
-    sendValue (x);
-    if (pin <= numBuffers-1) buffer[pin].push(x);
+    //sendValue (x);
+    if (pin <= numBuffers - 1) buffer[pin].push(x);
   }
   if (buffer[numBuffers].isFull()) {
     //time = millis();
-    for(byte actualBu = 0; actualBu <= numBuffers; actualBu++){
-    // the following ensures using the right type for the index variable
-     mean = 0.0;
-//    using index_t = decltype(buffer[actualBu])::index_t;
-    for (byte i = 0; i < buffer[actualBu].size(); i++) {
-      mean += buffer[actualBu][i] / buffer[actualBu].size();
+    for (byte actualBu = 0; actualBu <= numBuffers; actualBu++) {
+      // the following ensures using the right type for the index variable
+      mean = 0.0;
+      //    using index_t = decltype(buffer[actualBu])::index_t;
+      for (byte i = 0; i < buffer[actualBu].size(); i++) {
+        mean += buffer[actualBu][i] / buffer[actualBu].size();
+      }
+      //Serial.println(mean);
+      sendValue (mean);
+      //Serial.print("Average is ");
+      //Serial.println(avg);
     }
-    //Serial.println(mean);
-    sendValue (avg);
-    //Serial.print("Average is ");
-    //Serial.println(avg);
-  }
   }
   Serial.println();                 // Send a carriage returnt to mark end of pin data.
   delay (5);                        // add a delay to prevent crashing/overloading of the serial port
