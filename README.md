@@ -1,7 +1,7 @@
- # JOAKINATOR 
+ # InCY, INTERFACE CYBORG
  ## physical interface for transforming the human body in the interface itself
  
- ## Team
+## Team
 ### JOAQUÍN ROBERTO DÍAZ DURÁN
 > PhD Researcher Universidad de Castilla-La Mancha
 ### MARTA TIMÓN
