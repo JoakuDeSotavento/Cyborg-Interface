@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 26.0, 85.0, 1212.0, 569.0 ],
+		"rect" : [ 42.0, 85.0, 1428.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-135",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 949.0, 365.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-131",
@@ -125,14 +138,13 @@
 					"id" : "obj-112",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 10,
-					"outlettype" : [ "float", "float", "float", "float", "float", "float", "float", "float", "float", "float" ],
-					"patching_rect" : [ 881.333313, 262.0, 183.0, 22.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 841.333313, 322.0, 63.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 382.0, 131.0, 171.0, 36.0 ],
+					"presentation_rect" : [ 382.0, 131.0, 171.0, 22.0 ],
 					"style" : "",
-					"text" : "unpack 1. 1. 1. 1. 1. 1. 1. 1. 1. 1."
+					"text" : "unpack 1."
 				}
 
 			}
@@ -146,11 +158,12 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 881.333313, 230.0, 84.0, 19.0 ],
+					"patching_rect" : [ 841.333313, 290.0, 162.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 382.0, 99.0, 111.0, 19.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 382.0, 99.0, 111.0, 40.0 ],
 					"style" : "",
-					"text" : "route /wek/outputs"
+					"text" : "route /oscHook/accelerometer/linear/x"
 				}
 
 			}
@@ -163,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 881.333313, 200.0, 106.0, 22.0 ],
+					"patching_rect" : [ 841.333313, 260.0, 106.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 382.0, 69.0, 106.0, 22.0 ],
 					"style" : "",
@@ -8723,7 +8736,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 42.0, 82.0, 710.0, 560.0 ],
+						"rect" : [ 42.0, 85.0, 710.0, 560.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8750,7 +8763,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
@@ -11575,7 +11587,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 35.0, 208.0, 247.0, 19.0 ],
+					"patching_rect" : [ 35.0, 207.0, 247.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -11748,6 +11760,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 1512.333374, 728.333313, 1493.833374, 728.333313 ],
 					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-135", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-112", 0 ]
 				}
 
 			}
@@ -14112,15 +14133,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-79" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-27" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-54" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-43" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-95" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-94" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-25" : [ "flonum", "flonum", 0 ],
 			"obj-80" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-43" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-108" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-94" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-95" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-54" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-25" : [ "flonum", "flonum", 0 ],
+			"obj-27" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-79" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-109" : [ "live.gain~[8]", "live.gain~", 0 ]
 		}
 ,
