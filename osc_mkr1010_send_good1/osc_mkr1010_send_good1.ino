@@ -91,6 +91,7 @@ void loop() {
   msg2.add((int32_t)analogRead(0));
   //Serial.println((int32_t)analogRead(0));
 
+///////////////////////////// Need to put the IP directly VERY IMPORTANT  ////////////////////////////////////////
   Udp.beginPacket("192.168.3.69", outPort);
   msg.send(Udp); // send the bytes to the SLIP stream
   Udp.endPacket(); // mark the end of the OSC Packet
