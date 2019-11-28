@@ -1,9 +1,40 @@
 /*
+  WiFi Access Point for OSC Communication
+  A simple web server that lets you send OSC messages over a closed network.
+  This sketch will create a new access point with password.
+  It will then launch a new server, print out the IP address
+  to the Serial monitor, and then send an OSC message over UDP to a specific IP address.
+  created 24 Nov 2018
+  by Federico Peliti
+  based on
+  WiFi Simple Web Server by Tom Igoe
+  WiFi UDP Send and Receive String by dlf
+  UDP Send Message by Adrian Freed
+  Tested with
+  Arduino MKR1010
+  NINA Firmware 1.2.1
+  Requires the following libraries:
+  WiFi by Arduino
+  WiFiNINA by Arduino
+  OSC by Adrian Freed, Yotam Mann
+*/
+/*
     Make an OSC message and send it over UDP
 
     Adrian Freed
 */
 
+/*
+
+ This example connects to an unencrypted Wifi network.
+ Then it prints the  MAC address of the Wifi module,
+ the IP address obtained, and other network details.
+
+ created 13 July 2010
+ by dlf (Metodo2 srl)
+ modified 31 May 2012
+ by Tom Igoe
+ */
 
 
 //#include <Ethernet.h>
@@ -40,9 +71,11 @@ const unsigned int outPort2 = 13000;
 void setup() {
 
   Serial.begin(9600);
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB port only
-  }
+
+  // !!!!!!!!!!!!! estos comemntarios son para que se conecte automanticamente y envie
+//  while (!Serial) {
+//    ; // wait for serial port to connect. Needed for native USB port only
+//  }
 
   // check for the WiFi module:
   if (WiFi.status() == WL_NO_MODULE) {
@@ -88,7 +121,7 @@ void loop() {
   OSCMessage msg2("/analog/0");
 
   msg.add((int32_t)analogRead(0));
-  msg2.add((int32_t)analogRead(0));
+  msg2.add((int32_t)analogRead(1));
   //Serial.println((int32_t)analogRead(0));
 
 ///////////////////////////// Need to put the IP directly VERY IMPORTANT  ////////////////////////////////////////
