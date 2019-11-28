@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1428.0, 704.0 ],
+		"rect" : [ -76.0, 869.0, 1289.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -158,12 +158,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 841.333313, 290.0, 162.0, 19.0 ],
+					"patching_rect" : [ 841.333313, 290.0, 71.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 382.0, 99.0, 111.0, 40.0 ],
+					"presentation_rect" : [ 382.0, 99.0, 111.0, 19.0 ],
 					"style" : "",
-					"text" : "route /oscHook/accelerometer/linear/x"
+					"text" : "route /analog/0"
 				}
 
 			}
@@ -180,7 +179,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 382.0, 69.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "udpreceive 12000"
+					"text" : "udpreceive 16000"
 				}
 
 			}
@@ -8330,7 +8329,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "OSCTimeTag" ],
-					"patching_rect" : [ 621.333313, 340.666656, 149.0, 22.0 ],
+					"patching_rect" : [ 625.333313, 322.0, 149.0, 22.0 ],
 					"style" : "",
 					"text" : "OpenSoundControl 2000"
 				}
@@ -8376,7 +8375,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 621.333313, 385.666656, 142.0, 22.0 ],
+					"patching_rect" : [ 625.333313, 358.0, 149.0, 22.0 ],
 					"style" : "",
 					"text" : "udpsend 127.0.0.1 6448"
 				}
@@ -8409,7 +8408,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
-					"items" : [ "COM5", ",", "COM4", ",", "COM8", ",", "usbmodem1411", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
+					"items" : [ "COM8", ",", "COM4", ",", "COM8", ",", "usbmodem1411", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -13854,7 +13853,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 630.833313, 361.666656, 630.833313, 361.666656 ],
+					"midpoints" : [ 634.833313, 361.666656, 634.833313, 361.666656 ],
 					"source" : [ "obj-77", 0 ]
 				}
 
@@ -13949,7 +13948,7 @@
 					"destination" : [ "obj-77", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 644.833313, 303.0, 630.833313, 303.0 ],
+					"midpoints" : [ 644.833313, 303.0, 634.833313, 303.0 ],
 					"source" : [ "obj-82", 1 ]
 				}
 
@@ -13959,7 +13958,7 @@
 					"destination" : [ "obj-77", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 630.833313, 294.0, 630.833313, 294.0 ],
+					"midpoints" : [ 630.833313, 294.0, 634.833313, 294.0 ],
 					"source" : [ "obj-82", 0 ]
 				}
 
@@ -14133,16 +14132,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-80" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-43" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-108" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-94" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-95" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-54" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-25" : [ "flonum", "flonum", 0 ],
-			"obj-27" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-79" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-109" : [ "live.gain~[8]", "live.gain~", 0 ]
+			"obj-109" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-54" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-43" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-27" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-25" : [ "flonum", "flonum", 0 ],
+			"obj-80" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-94" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-95" : [ "live.gain~[6]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
