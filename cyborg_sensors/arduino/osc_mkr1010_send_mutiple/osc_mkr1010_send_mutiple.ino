@@ -43,6 +43,7 @@
 //#include <OSCMessage.h>
 #include <WiFiNINA.h>
 #include <WiFiUdp.h>
+#include <CircularBuffer.h>
 
 #include <OSCBundle.h>
 
@@ -53,6 +54,10 @@ char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as k
 int status = WL_IDLE_STATUS;     // the Wifi radio's status
 
 unsigned int localPort = 8888;      // local port to listen on
+
+// setup circular buffer (rolling window)
+CircularBuffer<int,10> buffer;  //la capacidad del buffer es numbersamples, cuyo valor previamente hemos fijado
+CircularBuffer<int,10> buffer1;
 
 WiFiUDP Udp;
 
@@ -121,9 +126,26 @@ void setup() {
 
 
 void loop() {
+
+  int sensorValue = analogRead(A0);
+  int sensorValue1 = analogRead(A1);
+  buffer.unshift(sensorValue);
+  buffer1.unshift(sensorValue1);
+  int s = 0;
+  int s1 = 0;
+  
+  for (int i=0; i<=buffer.size(); i++) {
+    
+    s += buffer[i];
+    s1 += buffer1[i];
+      }
+
+    s = s/buffer.size();
+    s1 = s1/buffer1.size();
+  
   OSCBundle bndl;
-  bndl.add("/analog/0").add((int32_t)analogRead(A0));
-  bndl.add("/analog/1").add((int32_t)analogRead(A1));
+  bndl.add("/analog/0").add((int32_t)s);
+  bndl.add("/analog/1").add((int32_t)s1);
   bndl.add("/analog/2").add((int32_t)analogRead(A2));
   bndl.add("/analog/3").add((int32_t)analogRead(A3));
   bndl.add("/analog/4").add((int32_t)analogRead(A4));
