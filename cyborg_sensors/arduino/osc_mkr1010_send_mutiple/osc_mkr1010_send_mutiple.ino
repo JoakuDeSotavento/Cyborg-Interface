@@ -26,23 +26,25 @@
 
 /*
 
- This example connects to an unencrypted Wifi network.
- Then it prints the  MAC address of the Wifi module,
- the IP address obtained, and other network details.
+  This example connects to an unencrypted Wifi network.
+  Then it prints the  MAC address of the Wifi module,
+  the IP address obtained, and other network details.
 
- created 13 July 2010
- by dlf (Metodo2 srl)
- modified 31 May 2012
- by Tom Igoe
- */
+  created 13 July 2010
+  by dlf (Metodo2 srl)
+  modified 31 May 2012
+  by Tom Igoe
+*/
 
 
 //#include <Ethernet.h>
 //#include <EthernetUdp.h>
 #include <SPI.h>
-#include <OSCMessage.h>
+//#include <OSCMessage.h>
 #include <WiFiNINA.h>
 #include <WiFiUdp.h>
+
+#include <OSCBundle.h>
 
 #include "arduino_secrets.h"
 ///////please enter your sensitive data in the Secret tab/arduino_secrets.h
@@ -68,14 +70,15 @@ const unsigned int outPort2 = 13000;
 //  }; // you can find this written on the board of some Arduino Ethernets or shields
 
 
+
 void setup() {
 
   Serial.begin(9600);
 
   // !!!!!!!!!!!!! estos comemntarios son para que se conecte automanticamente y envie
-//  while (!Serial) {
-//    ; // wait for serial port to connect. Needed for native USB port only
-//  }
+  //  while (!Serial) {
+  //    ; // wait for serial port to connect. Needed for native USB port only
+  //  }
 
   // check for the WiFi module:
   if (WiFi.status() == WL_NO_MODULE) {
@@ -103,37 +106,46 @@ void setup() {
     delay(10000);
 
   }
+
+  if (status == WL_CONNECTED) {
+    digitalWrite(LED_BUILTIN, HIGH);
+  }
   // you're connected now, so print out the data:
   Serial.print("You're connected to the network");
   printCurrentNet();
   printWifiData();
   //    Ethernet.begin(mac, ip);
   Udp.begin(localPort);
- // Udp2.begin(localPort);
+  // Udp2.begin(localPort);
 }
 
 
 void loop() {
+  OSCBundle bndl;
+  bndl.add("/analog/0").add((int32_t)analogRead(A0));
+  bndl.add("/analog/1").add((int32_t)analogRead(A1));
+  bndl.add("/analog/2").add((int32_t)analogRead(A2));
+  bndl.add("/analog/3").add((int32_t)analogRead(A3));
+  bndl.add("/analog/4").add((int32_t)analogRead(A4));
+  bndl.add("/analog/5").add((int32_t)analogRead(A5));
+  bndl.add("/analog/6").add((int32_t)analogRead(A6));
 
+  ///////////////////////////// Need to put the IP directly VERY IMPORTANT  ////////////////////////////////////////
+  Udp.beginPacket("192.168.3.69", outPort);
+  bndl.send(Udp); // send the bytes to the SLIP stream
+  Udp.endPacket(); // mark the end of the OSC Packet
+  bndl.empty(); // free space occupied by message
 
+  //  OSCMessage msg("/analog/0");
+  //  msg.add(String((int32_t)analogRead(A0), DEC));
   //the message wants an OSC address as first argument
-  OSCMessage msg("/analog/0");
-  OSCMessage msg2("/analog/0");
-
-  msg.add((int32_t)analogRead(0));
-  msg2.add((int32_t)analogRead(1));
+  //msg.add((int32_t)analogRead(A0));
   //Serial.println((int32_t)analogRead(0));
 
-///////////////////////////// Need to put the IP directly VERY IMPORTANT  ////////////////////////////////////////
-  Udp.beginPacket("192.168.3.69", outPort);
-  msg.send(Udp); // send the bytes to the SLIP stream
-  Udp.endPacket(); // mark the end of the OSC Packet
-  msg.empty(); // free space occupied by message
-
-  Udp.beginPacket("192.168.3.69", outPort2);
-  msg2.send(Udp); // send the bytes to the SLIP stream
-  Udp.endPacket(); // mark the end of the OSC Packet
-  msg2.empty(); // free space occupied by message
+  //  Udp.beginPacket("192.168.3.69", outPort2);
+  //  msg.send(Udp); // send the bytes to the SLIP stream
+  //  Udp.endPacket(); // mark the end of the OSC Packet
+  //  msg.empty(); // free space occupied by message
 
   delay(20);
 }

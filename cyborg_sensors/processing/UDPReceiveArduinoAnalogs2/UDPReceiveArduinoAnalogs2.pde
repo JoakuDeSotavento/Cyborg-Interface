@@ -12,6 +12,7 @@ import netP5.*;
 
 OscP5 oscP5;
 
+NetAddress myRemoteLocation;
 
 int analogValue0 = 50;
 int analogValue1 = 50;
@@ -22,11 +23,23 @@ int analogValue5 = 50;
 int analogValue6 = 50;
 
 
+int numFeatures = 0;
+String featureString = "";
+
 void setup() {
   size(1000, 300);
   frameRate(30);
   //set this to the receiving port
   oscP5 = new OscP5(this, 12000);
+
+  /* myRemoteLocation is a NetAddress. a NetAddress takes 2 parameters,
+   * an ip address and a port number. myRemoteLocation is used as parameter in
+   * oscP5.send() when sending osc packets to another computer, device, 
+   * application. usage see below. for testing purposes the listening port
+   * and the port of the remote location address are the same, hence you will
+   * send messages back to this sketch.
+   */
+  myRemoteLocation = new NetAddress("127.0.0.1", 6000);
 }
 
 
@@ -83,11 +96,28 @@ void draw() {
   text("/analog/6", 470, 270);
 }
 
+void sendFeatures(String[] s) {
+  OscMessage msg = new OscMessage("/wek/inputs");
+  StringBuilder sb = new StringBuilder();
+  try {
+    for (int i = 0; i < s.length; i++) {
+      float f = Float.parseFloat(s[i]); 
+      msg.add(f);
+      sb.append(String.format("%.2f", f)).append(" ");
+    }
+    oscP5.send(msg, myRemoteLocation);
+    featureString = sb.toString();
+  } 
+  catch (Exception ex) {
+    println("Encountered exception parsing string: " + ex);
+  }
+}
+
 
 // incoming osc message are forwarded to the oscEvent method. 
 void oscEvent(OscMessage theOscMessage) {
   //println(theOscMessage.addrPattern());
-  
+
   if (theOscMessage.addrPattern().equals("/analog/0")) {
     analogValue0 = theOscMessage.get(0).intValue();
   } else if (theOscMessage.addrPattern().equals("/analog/1")) {
@@ -103,5 +133,7 @@ void oscEvent(OscMessage theOscMessage) {
   } else if (theOscMessage.addrPattern().equals("/analog/6")) {
     analogValue6 = theOscMessage.get(0).intValue();
   }
- 
+
+  String [] messageToWeki = {str(analogValue0), str(analogValue1), str(analogValue2), str(analogValue3), str(analogValue4), str(analogValue5), str(analogValue6)};
+  sendFeatures(messageToWeki);
 }
