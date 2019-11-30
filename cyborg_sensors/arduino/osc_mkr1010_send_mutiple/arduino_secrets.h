@@ -1,2 +1,2 @@
-#define SECRET_SSID "Medialab-Prado"
-#define SECRET_PASS "visualizar"
+#define SECRET_SSID ""
+#define SECRET_PASS ""
