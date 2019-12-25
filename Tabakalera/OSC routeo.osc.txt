@@ -1,0 +1,2 @@
+Arduino to Wekinator, 127.0.0.1, 4000, /composition/selectedlayer/video/opacity, 0, 1000, 127.0.0.1, 3000, /composition/layers/3/video/opacity, 0, 1
+, 0, 1, 127.0.0.1, 19000

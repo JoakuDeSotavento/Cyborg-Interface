@@ -56,8 +56,14 @@ int status = WL_IDLE_STATUS;     // the Wifi radio's status
 unsigned int localPort = 8888;      // local port to listen on
 
 // setup circular buffer (rolling window)
-CircularBuffer<int,10> buffer;  //la capacidad del buffer es numbersamples, cuyo valor previamente hemos fijado
-CircularBuffer<int,10> buffer1;
+CircularBuffer<int, 10> buffer; //la capacidad del buffer es numbersamples, cuyo valor previamente hemos fijado
+CircularBuffer<int, 10> buffer1;
+CircularBuffer<int, 10> buffer2;
+CircularBuffer<int, 10> buffer3;
+CircularBuffer<int, 10> buffer4;
+CircularBuffer<int, 10> buffer5;
+CircularBuffer<int, 10> buffer6;
+CircularBuffer<int, 10> buffer7;
 
 WiFiUDP Udp;
 
@@ -129,31 +135,58 @@ void loop() {
 
   int sensorValue = analogRead(A0);
   int sensorValue1 = analogRead(A1);
+  int sensorValue2 = analogRead(A2);
+  int sensorValue3 = analogRead(A3);
+  int sensorValue4 = analogRead(A4);
+  int sensorValue5 = analogRead(A5);
+  int sensorValue6 = analogRead(A6);
+
   buffer.unshift(sensorValue);
   buffer1.unshift(sensorValue1);
+  buffer2.unshift(sensorValue2);
+  buffer3.unshift(sensorValue3);
+  buffer4.unshift(sensorValue4);
+  buffer5.unshift(sensorValue5);
+  buffer6.unshift(sensorValue6);
+
   int s = 0;
   int s1 = 0;
-  
-  for (int i=0; i<=buffer.size(); i++) {
-    
+  int s2 = 0;
+  int s3 = 0;
+  int s4 = 0;
+  int s5 = 0;
+  int s6 = 0;
+
+  for (int i = 0; i <= buffer.size(); i++) {
+
     s += buffer[i];
     s1 += buffer1[i];
-      }
+    s2 += buffer2[i];
+    s3 += buffer3[i];
+    s4 += buffer4[i];
+    s5 += buffer5[i];
+    s6 += buffer6[i];
+  }
 
-    s = s/buffer.size();
-    s1 = s1/buffer1.size();
-  
+  s = s / buffer.size();
+  s1 = s1 / buffer1.size();
+  s2 = s2 / buffer2.size();
+  s3 = s3 / buffer3.size();
+  s4 = s4 / buffer4.size();
+  s5 = s5 / buffer5.size();
+  s6 = s6 / buffer6.size();
+
   OSCBundle bndl;
   bndl.add("/analog/0").add((int32_t)s);
   bndl.add("/analog/1").add((int32_t)s1);
-  bndl.add("/analog/2").add((int32_t)analogRead(A2));
-  bndl.add("/analog/3").add((int32_t)analogRead(A3));
-  bndl.add("/analog/4").add((int32_t)analogRead(A4));
-  bndl.add("/analog/5").add((int32_t)analogRead(A5));
-  bndl.add("/analog/6").add((int32_t)analogRead(A6));
+  bndl.add("/analog/2").add((int32_t)s2);
+  bndl.add("/analog/3").add((int32_t)s3);
+  bndl.add("/analog/4").add((int32_t)s4);
+  bndl.add("/analog/5").add((int32_t)s5);
+  bndl.add("/analog/6").add((int32_t)s6);
 
   ///////////////////////////// Need to put the IP directly VERY IMPORTANT  ////////////////////////////////////////
-  Udp.beginPacket("192.168.3.69", outPort);
+  Udp.beginPacket("192.168.43.154", outPort);
   bndl.send(Udp); // send the bytes to the SLIP stream
   Udp.endPacket(); // mark the end of the OSC Packet
   bndl.empty(); // free space occupied by message
