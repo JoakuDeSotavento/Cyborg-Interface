@@ -73,7 +73,7 @@ void setup() {
 
   //// address for resolume
   //myRemoteReso = new NetAddress("127.0.0.1", 3000);
-  myRemoteReso = new NetAddress("192.168.43.188", 3000);
+  myRemoteReso = new NetAddress("192.168.43.120", 3000);
 
   //*NICE CONTROLS INICILIZATION*//
   cp5 = new ControlP5(this);
@@ -159,7 +159,7 @@ void inputData() {
 
 void outputData() {
 
-  float processHeight0 = map(p0, 0, 1, 0, 200);
+  float processHeight0 = map(p0, 0, 127, 0, 200);
   fill(255);
   rect(540, 250, 50, -processHeight0);
   //and the labels
@@ -167,7 +167,7 @@ void outputData() {
   text("OPACITY", 540, 270);
   text(p0, 540, 290);
 
-  float processHeight1 = map(p1, 0, 1, 0, 200);
+  float processHeight1 = map(p1, 0, 127, 0, 200);
   fill(255);
   rect(610, 250, 50, -processHeight1);
   //and the labels
@@ -175,7 +175,7 @@ void outputData() {
   text("SPEED", 610, 270);
   text(p1, 610, 290);
 
-  float processHeight2 = map(p2, 0, 1, 0, 200);
+  float processHeight2 = map(p2, 0, 127, 0, 200);
   fill(255);
   rect(680, 250, 50, -processHeight2);
   //and the labels
@@ -183,7 +183,7 @@ void outputData() {
   text("DIRECCTION", 680, 270);
   text(p2, 680, 290);
 
-  float processHeight3 = map(p3, 0, 9, 0, 200);
+  float processHeight3 = map(p3, 0, 127, 0, 200);
   fill(255);
   rect(750, 250, 50, -processHeight3);
   //and the labels
@@ -191,7 +191,7 @@ void outputData() {
   text("CLIP K", 750, 270);
   text(p3, 750, 290);
 
-  float processHeight4 = map(p4, 0, 1, 0, 200);
+  float processHeight4 = map(p4, 0, 127, 0, 200);
   fill(255);
   rect(810, 250, 50, -processHeight4);
   //and the labels
@@ -199,7 +199,7 @@ void outputData() {
   text("POSITION X", 810, 270);
   text(p4, 810, 290);
 
-  float processHeight5 = map(p5, 0, 1, 0, 200);
+  float processHeight5 = map(p5, 0, 127, 0, 200);
   fill(255);
   rect(880, 250, 50, -processHeight5);
   //and the labels
@@ -207,7 +207,7 @@ void outputData() {
   text("POSITION X", 880, 270);
   text(p5, 880, 290);
 
-  float processHeight6 = map(p6, 0, 1, 0, 200);
+  float processHeight6 = map(p6, 0, 127, 0, 200);
   fill(255);
   rect(950, 250, 50, -processHeight6);
   //and the labels
@@ -243,7 +243,7 @@ void sendOscReso(float _p0, float _p1, float _p2, float _p3, float _p4, float _p
   OscBundle myBundle = new OscBundle();
 
   /* createa new osc message object */
-  OscMessage myMessage = new OscMessage("/composition/selectedlayer/video/opacity");
+  OscMessage myMessage = new OscMessage("/opacity");
   myMessage.add((float)_p0);
   /* add an osc message to the osc bundle */
   myBundle.add(myMessage);
@@ -251,43 +251,43 @@ void sendOscReso(float _p0, float _p1, float _p2, float _p3, float _p4, float _p
   myMessage.clear();
 
   /* refill the osc message object again */
-  myMessage.setAddrPattern("/composition/selectedclip/transport/position/behaviour/speed");
+  myMessage.setAddrPattern("/lumi");
   myMessage.add((float)_p1);
   myBundle.add(myMessage);
 
   myMessage.clear();
 
   /* refill the osc message object again */
-  myMessage.setAddrPattern("/composition/selectedclip/transport/position/behaviour/playdirection");
+  myMessage.setAddrPattern("/tempo");
   myMessage.add((float)_p2);
   myBundle.add(myMessage);
 
   myMessage.clear();
 
   /* refill the osc message object again */
-  myMessage.setAddrPattern("/composition/selectedlayer/connectspecificclip");
+  myMessage.setAddrPattern("/inv");
   myMessage.add((float)_p3);
   myBundle.add(myMessage);
 
   myMessage.clear();
 
   /* refill the osc message object again */
-  myMessage.setAddrPattern("/composition/selectedclip/video/effects/transform/positionx");
-  myMessage.add((float)0.5);
+  myMessage.setAddrPattern("/trans");
+  myMessage.add((float)_p4);
   myBundle.add(myMessage);
 
   myMessage.clear();
 
   /* refill the osc message object again */
   myMessage.setAddrPattern("/composition/selectedclip/video/effects/transform/positiony");
-  myMessage.add((float)0.5);
+  myMessage.add((float)_p5);
   myBundle.add(myMessage);
 
   myMessage.clear();
 
   /* refill the osc message object again */
   myMessage.setAddrPattern("/composition/selectedclip/video/effects/transform/scale");
-  myMessage.add((float)0.1);
+  myMessage.add((float)_p6);
   myBundle.add(myMessage);
 
   //myMessage.clear();
