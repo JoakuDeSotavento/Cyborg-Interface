@@ -40,7 +40,7 @@
 //#include <Ethernet.h>
 //#include <EthernetUdp.h>
 #include <SPI.h>
-//#include <OSCMessage.h>
+#include <OSCMessage.h>
 #include <WiFiNINA.h>
 #include <WiFiUdp.h>
 #include <CircularBuffer.h>
@@ -72,9 +72,10 @@ WiFiUDP Udp;
 //the Arduino's IP
 IPAddress ip(192, 168, 43, 250);
 //destination IP
-IPAddress outIp(192, 168, 43, 249);
+IPAddress outIp(192, 168, 43, 41);
 const unsigned int outPort = 12000;
 //const unsigned int outPort2 = 13000;
+const unsigned int inPort = 888;
 
 //byte mac[] = {
 //  80,7D,3A,86,F8,84
@@ -223,22 +224,25 @@ void loop() {
   //  msg.empty(); // free space occupied by message
 
   //* For the arduino to initiate the calibration process*//
-  /* aquí estoy tratabdo de meter la calibracion via processing
-    OSCBundle bundleIN;
-    int size;
+  //aquí estoy tratabdo de meter la calibracion via processing
+  OSCMessage msg("/calib/");
+  int size;
 
-    if ( (size = Udp.parsePacket()) > 0)
-    {
-      Serial.println("llego un mesaje de processing");
-      while (size--)
-        bundleIN.fill(Udp.read());
-
-      if (!bundleIN.hasError())
-        bundleIN.route("/calib", 0);
-
-
+  if ( (size = Udp.parsePacket()) > 0)
+  {
+    Serial.println("llego un mesaje de processing");
+    while (size--) {
+      msg.fill(Udp.read());
+      Serial.println("llenando la variable");
+      if (msg.isInt(1)) {
+        //get that integer
+        int data = msg.getInt(1);
+        Serial.println(data);
+      }
     }
-  */
+    //if (!bundleIN.hasError())
+    //  bundleIN.route("/calib", 0);
+  }
   delay(20);
 }
 

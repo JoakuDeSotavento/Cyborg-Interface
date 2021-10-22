@@ -54,7 +54,7 @@ void setup() {
   myRemoteLocation = new NetAddress("127.0.0.1", 9000);
   remoteWekiAudio = new NetAddress("127.0.0.1", 5000);
   /// address for arduino
-  myRemoteArduino = new NetAddress("192.168.43.250", 888);
+  myRemoteArduino = new NetAddress("192.168.43.250", 8888);
 
   //// address for resolume
   //myRemoteReso = new NetAddress("127.0.0.1", 3000);
@@ -202,8 +202,8 @@ public void bang() {
   int theColor = (int)random(255);
   myColorBackground = color(theColor);
   /* in the following different ways of creating osc messages are shown by example */
-  OscMessage ardMessage = new OscMessage("/calib");
-  ardMessage.add(random(10)); /* add an int to the osc message */
+  OscMessage ardMessage = new OscMessage("/calib/");
+  ardMessage.add(int(random(10))); /* add an int to the osc message */
   /* send the message */
   oscP5.send(ardMessage, myRemoteArduino); 
   println("### bang().sending Calib instruction " + ardMessage);
