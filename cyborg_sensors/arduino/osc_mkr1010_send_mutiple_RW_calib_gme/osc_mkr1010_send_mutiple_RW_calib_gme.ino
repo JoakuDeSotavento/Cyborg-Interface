@@ -72,8 +72,8 @@ WiFiUDP Udp;
 //the Arduino's IP
 IPAddress ip(192, 168, 43, 250);
 //destination IP
-IPAddress outIp(192, 168, 43, 49);
-const unsigned int outPort = 14000;
+IPAddress outIp(192, 168, 43, 10);
+const unsigned int outPort = 12000;
 //const unsigned int outPort2 = 13000;
 const unsigned int inPort = 888;
 
@@ -207,7 +207,7 @@ void loop() {
   bndl.add("/analog/6").add((int32_t)s6);
 
   ///////////////////////////// Need to put the IP directly VERY IMPORTANT  ////////////////////////////////////////
-  Udp.beginPacket("192.168.43.249", outPort);
+  Udp.beginPacket("192.168.43.10", outPort);
   bndl.send(Udp); // send the bytes to the SLIP stream
   Udp.endPacket(); // mark the end of the OSC Packet
   bndl.empty(); // free space occupied by message

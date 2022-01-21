@@ -2,7 +2,7 @@
 	"name" : "thisIsNot",
 	"version" : 1,
 	"creationdate" : 3715160508,
-	"modificationdate" : 3716273898,
+	"modificationdate" : 3724960318,
 	"viewrect" : [ 277.0, 204.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"theorethical_DJ2_ThisBody.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
