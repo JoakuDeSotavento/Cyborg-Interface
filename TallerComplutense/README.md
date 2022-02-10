@@ -21,3 +21,8 @@ Estos archivos son necesarios para el funcionamiento del proyecto de audio y est
 ## Slides
 
 Aquí encontraras el [contenido del workshop](https://docs.google.com/presentation/d/1TfPGoWbZKXpSUWjrv5Y0VLnvYOCxZb2MFB6kBpDMP4w/edit?usp=sharing)
+
+<img src="../assets/Logo_mini_Body.png" width="900">
+* Vinculado a BODYinTRANSIT Sensory-driven Body Transformation Experiences On-the-move. UC3M.
+** Vinculado a FUZZYGAB.4. UCLM
+*** Proyecto desarrollado con el apoyo de una beca de CONACYT-FINBA. México; Medialab-Matadero. España.
