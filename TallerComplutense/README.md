@@ -1,3 +1,5 @@
+<img src="../assets/Joakinator_Complutense.png" width="900">
+
 # Taller Interfaz Cyborg
 
 ### Interfaz Interactiva para reflexionar la relación arte, tecnología y cuerpo en la performance.
@@ -12,4 +14,4 @@ En la segunda parte del taller los asistentes experimentarán con el dispositivo
 
 ## Slides
 
-Aquí encontraras la [presentación del workshop](https://docs.google.com/presentation/d/1TfPGoWbZKXpSUWjrv5Y0VLnvYOCxZb2MFB6kBpDMP4w/edit?usp=sharing)
+Aquí encontraras el [contenido del workshop](https://docs.google.com/presentation/d/1TfPGoWbZKXpSUWjrv5Y0VLnvYOCxZb2MFB6kBpDMP4w/edit?usp=sharing)
