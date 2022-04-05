@@ -53,7 +53,7 @@ void setup() {
   /// adress for wekinator helper
   myRemoteLocation = new NetAddress("127.0.0.1", 9000);
   // remoteWekiAudio = new NetAddress("192.168.43.102", 57120);
-  remoteWekiAudio = new NetAddress("192.168.43.167", 4000);
+  remoteWekiAudio = new NetAddress("192.168.43.167", 11000);
   /// address for arduino
   myRemoteArduino = new NetAddress("192.168.43.250", 8888);
 
