@@ -2,26 +2,15 @@
 	"name" : "thisIsNot",
 	"version" : 1,
 	"creationdate" : 3715160508,
-	"modificationdate" : 3732020445,
-	"viewrect" : [ 277.0, 204.0, 300.0, 500.0 ],
+	"modificationdate" : 3733397484,
+	"viewrect" : [ 455.0, 204.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"theorethical_DJ2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
-,
 			"theorethical_DJ2_ThisBody.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"theorethical_DJ2_imper.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
