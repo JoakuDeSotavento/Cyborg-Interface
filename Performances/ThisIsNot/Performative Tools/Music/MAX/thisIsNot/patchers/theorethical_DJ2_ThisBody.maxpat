@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 27.0, 100.0, 1146.0, 713.0 ],
+		"rect" : [ 34.0, 77.0, 1468.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -129,10 +129,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.750014999999962, 67.0, 77.0, 33.0 ],
+					"patching_rect" : [ 84.750014999999962, 67.0, 77.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 143.6729905714285, 21.0, 77.0, 33.0 ],
+					"presentation_rect" : [ 143.6729905714285, 21.0, 77.0, 34.0 ],
 					"text" : "OFF Performance"
 				}
 
@@ -158,10 +158,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 792.000000000000114, 1024.496478000000025, 77.0, 33.0 ],
+					"patching_rect" : [ 792.000000000000114, 1024.496478000000025, 77.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 206.815847714285638, 87.0, 77.0, 33.0 ],
+					"presentation_rect" : [ 206.815847714285638, 87.0, 77.0, 34.0 ],
 					"text" : "Reset Reverb"
 				}
 
@@ -441,10 +441,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.000000000000114, 981.854877000000101, 77.0, 33.0 ],
+					"patching_rect" : [ 708.000000000000114, 981.854877000000101, 77.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 87.1729905714285, 130.0, 77.0, 33.0 ],
+					"presentation_rect" : [ 87.1729905714285, 130.0, 77.0, 34.0 ],
 					"text" : "REVERB ON"
 				}
 
@@ -1061,7 +1061,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 791.0, 90.0, 22.0 ],
+					"patching_rect" : [ 174.280578999999932, 821.0, 90.0, 22.0 ],
 					"text" : "scale 0 1 0 127"
 				}
 
@@ -1730,7 +1730,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 155.280578999999932, 843.5, 61.0, 21.0 ],
+					"patching_rect" : [ 146.280578999999932, 900.5, 61.0, 22.0 ],
 					"text" : "pan2 100"
 				}
 
@@ -1743,7 +1743,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.773803999999927, 804.572631999999999, 113.0, 19.0 ],
+					"patching_rect" : [ 174.280578999999932, 855.572631999999999, 113.0, 19.0 ],
 					"size" : 127.0
 				}
 
@@ -1812,7 +1812,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.773803999999927, 502.496477999999968, 80.0, 54.0 ],
+					"patching_rect" : [ 263.773803999999927, 502.496477999999968, 80.0, 55.0 ],
 					"text" : "Set playback speed."
 				}
 
@@ -2912,8 +2912,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pan2.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
+				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/Joaku De Sotavento/AppData/Roaming/Cycling '74/Max 8/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
