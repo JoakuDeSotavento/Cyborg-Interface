@@ -2,7 +2,7 @@
 	"name" : "pablo_voz",
 	"version" : 1,
 	"creationdate" : 3664963848,
-	"modificationdate" : 3732709020,
+	"modificationdate" : 3733907642,
 	"viewrect" : [ 32.0, 72.0, 300.0, 502.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,17 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"theorethical_DJ2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"theorethical_DJ2_imper_2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"theorethical_DJ2_ThisBody.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -63,6 +53,10 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+
+		}
+,
+		"data" : 		{
 
 		}
 ,
