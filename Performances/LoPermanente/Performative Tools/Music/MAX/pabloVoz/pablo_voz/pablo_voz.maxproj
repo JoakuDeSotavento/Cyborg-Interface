@@ -2,7 +2,11 @@
 	"name" : "pablo_voz",
 	"version" : 1,
 	"creationdate" : 3664963848,
+<<<<<<< Updated upstream
 	"modificationdate" : 3733914043,
+=======
+	"modificationdate" : 3734004561,
+>>>>>>> Stashed changes
 	"viewrect" : [ 32.0, 72.0, 300.0, 502.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -28,6 +32,32 @@
 
 		}
 ,
+<<<<<<< Updated upstream
+=======
+		"media" : 		{
+			"fuego.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"icaro.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lluvia.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"viento2.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+
+		}
+,
+>>>>>>> Stashed changes
 		"data" : 		{
 
 		}

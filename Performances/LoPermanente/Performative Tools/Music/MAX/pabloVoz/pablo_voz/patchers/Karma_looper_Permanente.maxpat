@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -133.0, -1355.0, 1978.0, 1289.0 ],
+		"rect" : [ 34.0, 77.0, 1468.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -183,7 +183,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1343.32779406692498, 402.302314758300781, 106.0, 22.0 ],
-					"text" : "zmap 0. 1. -70. -1."
+					"text" : "zmap 0. 1. -70. -7."
 				}
 
 			}
@@ -232,7 +232,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1338.833327999999938, 1012.26855416236458, 448.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "The rightmost outlet of the midiparse object converts MIDI input into properly formatted midievent messages for use with the vst~ object.",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -262,7 +261,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1778.5, 965.26855416236458, 57.5, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "MIDI \nChannel",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -278,7 +276,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1684.0, 965.26855416236458, 41.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Pitch\nBend",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -308,7 +305,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1496.333313000000089, 965.26855416236458, 60.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Pgm \nChange",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -324,7 +320,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1402.166655999999875, 965.26855416236458, 61.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Control \nChange",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -340,7 +335,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1307.166655999999875, 965.26855416236458, 62.166671999999998, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Poly \nPressure",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -356,7 +350,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1209.5, 965.26855416236458, 53.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Note \nOn/Off",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -753,7 +746,7 @@
 							"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Swirl/Swirl.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"in_level" : 0.0,
+									"in_level" : 0.354330708661417,
 									"left_delay" : 54.024564929133895,
 									"left_feedback" : 0.9,
 									"left_moddepth" : 3.118110236220469,
@@ -762,7 +755,7 @@
 									"right_feedback" : 0.9,
 									"right_moddepth" : 3.10122834645669,
 									"right_modfreq" : 0.913385826771654,
-									"wet_dry" : 0.0
+									"wet_dry" : 100.0
 								}
 
 							}
@@ -785,7 +778,7 @@
 										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Swirl/Swirl.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
-												"in_level" : 0.0,
+												"in_level" : 0.354330708661417,
 												"left_delay" : 54.024564929133895,
 												"left_feedback" : 0.9,
 												"left_moddepth" : 3.118110236220469,
@@ -794,7 +787,7 @@
 												"right_feedback" : 0.9,
 												"right_moddepth" : 3.10122834645669,
 												"right_modfreq" : 0.913385826771654,
-												"wet_dry" : 0.0
+												"wet_dry" : 100.0
 											}
 
 										}
