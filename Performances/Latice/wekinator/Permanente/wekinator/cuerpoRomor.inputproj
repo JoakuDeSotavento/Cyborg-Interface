@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<WekiInputHelperFileData>
+  <oscReceivePort>9000</oscReceivePort>
+  <oscSendPort>6449</oscSendPort>
+  <sendHostname>localhost</sendHostname>
+  <sendOscMessage>/helper</sendOscMessage>
+  <inputs>
+    <oscMessage>/helper</oscMessage>
+    <numInputs>7</numInputs>
+    <groupName>Inputs</groupName>
+    <inputNames>
+      <string>emg_1</string>
+      <string>emg_2</string>
+      <string>emg_3</string>
+      <string>felx_1</string>
+      <string>flex_2</string>
+      <string>flex_3</string>
+      <string>felx_4</string>
+    </inputNames>
+  </inputs>
+  <outputs>
+    <outputs class="linked-list"/>
+    <numOutputTypes>0</numOutputTypes>
+    <dimensionality>0</dimensionality>
+    <hasDependencies>false</hasDependencies>
+  </outputs>
+  <inputTriggerer class="wekiinputhelper.TriggerOnTimes">
+    <c>
+      <type>NONE</type>
+      <howLong>ONCE</howLong>
+      <index>0</index>
+      <val>0.0</val>
+      <appliesTo>INPUT</appliesTo>
+    </c>
+    <runningListener class="wekiinputhelper.InputTriggerer$1">
+      <outer-class class="wekiinputhelper.TriggerOnTimes" reference="../.."/>
+    </runningListener>
+    <numMs>150</numMs>
+  </inputTriggerer>
+  <isSendingOriginalInputs>true</isSendingOriginalInputs>
+</WekiInputHelperFileData>

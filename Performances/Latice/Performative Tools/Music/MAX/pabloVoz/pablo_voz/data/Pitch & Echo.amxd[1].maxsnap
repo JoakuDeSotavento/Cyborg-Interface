@@ -1,0 +1,40 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Pitch & Echo.amxd[1]",
+	"origin" : "Pitch & Echo.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Pitch & Echo.amxd",
+		"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Pitch & Echo.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Dry/Wet" : 74.0,
+				"EchoEnable" : 0.0,
+				"EchoFeedback" : 49.656188999999998,
+				"EchoMode" : 0.0,
+				"EchoSync" : 13.0,
+				"EchoTime" : 2455.931744385821276,
+				"Gain" : 0.0,
+				"Glide" : 2040.285399999999981,
+				"Latency" : 1.0,
+				"Quality" : 0.0,
+				"Transp" : -1485.0,
+				"VibDepth" : 25.0,
+				"VibDirection" : 0.0,
+				"VibEnable" : 0.0,
+				"VibNoiseAmount" : 50.0,
+				"VibNoiseEnable" : 0.0,
+				"VibOscAmount" : 50.0,
+				"VibOscEnable" : 1.0,
+				"VibRate" : 38.073073999999998
+			}
+
+		}
+
+	}
+
+}
