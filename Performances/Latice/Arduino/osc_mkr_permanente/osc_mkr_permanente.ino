@@ -74,7 +74,7 @@ IPAddress ip(192, 168, 152, 60);
 //destination IP
 IPAddress outIp(192, 168, 152, 62);
 const unsigned int outPort = 12000;
-//const unsigned int outPort2 = 13000;
+const unsigned int outPort2 = 13000;
 const unsigned int inPort = 888;
 
 //byte mac[] = {
@@ -218,10 +218,10 @@ void loop() {
   //msg.add((int32_t)analogRead(A0));
   //Serial.println((int32_t)analogRead(0));
 
-  //  Udp.beginPacket("192.168.3.69", outPort2);
-  //  msg.send(Udp); // send the bytes to the SLIP stream
-  //  Udp.endPacket(); // mark the end of the OSC Packet
-  //  msg.empty(); // free space occupied by message
+  Udp.beginPacket(outIp, outPort2);
+  msg.send(Udp); // send the bytes to the SLIP stream
+  Udp.endPacket(); // mark the end of the OSC Packet
+  msg.empty(); // free space occupied by message
 
   //* For the arduino to initiate the calibration process*//
   //aquí estoy tratabdo de meter la calibracion via processing

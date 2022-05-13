@@ -1,0 +1,707 @@
+<REAPER_PROJECT 0.1 "6.57/macOS-arm64" 1652452630
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3198 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 140.50230813490344
+  ZOOM 8.21765255352461 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+    ZXZhdxgAAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN lattice$tracknumber
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 4 0 0 18 100
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 32
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZmZpYRgAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 141.2444475470495
+  SELECTION2 0 141.2444475470495
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 -1 -1 -1 0 0 0 -1 -1 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 0.41604610749285 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {F6777CC6-3ACB-2342-8DAE-03A7FCB4EAEE}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {446963C9-D13F-274B-8291-F7990A947A95}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {2602E9BE-F1DB-F94D-AFE4-727E050B0D9F}
+    NAME Lattice
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {2602E9BE-F1DB-F94D-AFE4-727E050B0D9F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT -165 1560 815 445
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.dylib 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAAAAA
+        IQAAAAQAAAAEAAAAAQAAAJmjOA72kmhAAAAAAAAA8D8AAAAAAAAAQAACAAAAAQAAAALfIInSMIRAJza9oXk88z+BlUOLbOfvPwACAAAAAAAAAJ4s0c30H5VAAQZ1F3IW
+        9D8AAAAAAADwPwACAAAAAQAAAJ5MeMPLwrBAOqL82Zxg8z8UWmQ730/pPwABAAAAAQAAAAAAAAAAAPA/AAAAAEACAABrAQAAAgAAAA==
+        AHN0b2NrIC0gV2lkZSBtYWxlIHZvY2FsAAAAAAA=
+      >
+      PRESETNAME "stock - Wide male vocal"
+      FLOATPOS 0 0 0 0
+      FXID {E64B4D76-DEE3-904A-8767-70A0C9EEC16F}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0.12342022286256
+      SNAPOFFS 0
+      LENGTH 2.71788410912122
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.419629 0 1 0 0 0
+      FADEOUT 1 0.3729 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {C4C3A284-FB57-7440-9342-7181FF1395B5}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 32.24365259224201
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E679938F-CBA4-4A45-A615-73AF2B24FD19}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3.23776540156291
+      SNAPOFFS 0
+      LENGTH 4.53727668518339
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.193317 0 1 0 0 0
+      FADEOUT 1 0.394513 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0D85EC38-DAD6-7745-9C43-B926C3002BF8}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 37.95702033818333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {051E6753-CA1A-3246-9D06-2B98929D1914}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 8.41378492106823
+      SNAPOFFS 0
+      LENGTH 1.41046481879166
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.274999 0 1 0 0 0
+      FADEOUT 1 0.282091 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {A4C0B779-56D4-3C4B-A5A6-45C90EC5F2C8}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 43.70570584708074
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F956C129-77C1-D543-A916-CBEF7BDD4AA6}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 10.33001342403404
+      SNAPOFFS 0
+      LENGTH 1.82812604305933
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.210074 0 1 0 0 0
+      FADEOUT 1 0.334482 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {AD40FBBE-DEC9-F441-8686-DDFDBA975BDE}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 46.2827027993451
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33CC9901-9B1D-B449-A9DA-48FF93345E72}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 12.71634329265412
+      SNAPOFFS 0
+      LENGTH 2.70915064212406
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.341516 0 1 0 0 0
+      FADEOUT 1 0.294175 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {A3CE6FAB-B962-CD47-9D31-FBAC531B33CA}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 49.01387905644577
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DC98D80-8335-844A-868D-A7E2E3DDF5C1}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 15.66021224837569
+      SNAPOFFS 0
+      LENGTH 4.06912752786064
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.384417 0 1 0 0 0
+      FADEOUT 1 0.451101 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {614D2D94-CCD3-C142-8049-1DF29DED5F2F}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 52.21515667920074
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3CE003FC-B94D-3C42-8B0C-1790A85D1826}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 20.47855521077696
+      SNAPOFFS 0
+      LENGTH 1.19403592388885
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.354778 0 1 0 0 0
+      FADEOUT 1 0.416761 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {71E4ABFF-0D7D-EF4F-B74C-41141F0A566A}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 57.03349964160201
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {25EBFF59-DA5C-F04F-BBB0-ACE530DBBDBF}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 22.99515064474673
+      SNAPOFFS 0
+      LENGTH 1.71357797233809
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.331271 0 1 0 0 0
+      FADEOUT 1 0.33359 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {E007D52C-DB5A-C049-9C8B-F6C9E8EDA840}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 66.12013811692813
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F6641DF5-C4F1-B34D-8022-973DC870DB7D}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 25.49861804340522
+      SNAPOFFS 0
+      LENGTH 1.90067143208345
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.453186 0 1 0 0 0
+      FADEOUT 1 0.24684 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {B0925487-2463-B245-835B-9795406E2B00}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 70.35256421068038
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BA3CF392-869F-7048-9436-A9624EBC029C}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 28.20123738219566
+      SNAPOFFS 0
+      LENGTH 3.49307584891015
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.456938 0 1 0 0 0
+      FADEOUT 1 0.416809 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {88DC51F7-A12D-9740-B43A-BFE8AA21A327}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 74.13098007086249
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7ACF5C2-A1DE-A342-B4EF-F9927DFF0126}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 40.78535753553106
+      SNAPOFFS 0
+      LENGTH 7.32333767903182
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.585867 0 1 0 0 0
+      FADEOUT 1 0.5408 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {114E594C-B395-B545-A6B6-DD274C6EFB2E}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 86.71510022419781
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FE600624-D6C4-5742-9719-42D15347C312}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 51.06056363288032
+      SNAPOFFS 0
+      LENGTH 3.0420018051363
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.428134 0 1 0 0 0
+      FADEOUT 1 0.450667 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {B8947376-B895-A44C-B9CB-764AC4102584}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 98.4236088839975
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E133E32F-7DFF-B14E-86D1-7844E75D2D04}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 57.41496740360947
+      SNAPOFFS 0
+      LENGTH 4.01093571343897
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.585867 0 1 0 0 0
+      FADEOUT 1 0.450667 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {9764BC82-5987-9745-B4C1-CF65CCD21F7C}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 104.5174121888266
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9F69D13C-F95A-424F-96A1-40A4BA20F783}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 65.45937217719212
+      SNAPOFFS 0
+      LENGTH 2.27586801717604
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.315467 0 1 0 0 0
+      FADEOUT 1 0.450667 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {E3C53826-FD3A-1F4E-A646-0E675D5E2ED0}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 111.38911486585894
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F0353A6D-0031-924F-9F68-9384D7A9E035}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 69.13230769006039
+      SNAPOFFS 0
+      LENGTH 3.96586902002954
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.585867 0 1 0 0 0
+      FADEOUT 1 0.518267 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {92A0059A-029B-AF41-AB15-330C06421062}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 115.06205037872721
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D7206265-A206-9941-8B8F-EB9B0290C09A}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 74.92154345406178
+      SNAPOFFS 0
+      LENGTH 2.58191165133998
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.530214 0 1 0 0 0
+      FADEOUT 1 0.543929 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {E7D051FD-E634-C548-81FC-5ADC4E6AD24E}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 120.8512861427286
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {85B50CA7-276E-C049-BB7F-43172C7AA98C}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 80.38505293055798
+      SNAPOFFS 0
+      LENGTH 3.35093516409052
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.41495 0 1 0 0 0
+      FADEOUT 1 0.49239 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {1E32A895-4077-CB4E-A970-88C80D0E7CB0}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 126.3147956192248
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8B9A21FC-C2D2-8148-BEFD-76385A4DEBBB}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 86.56319866769292
+      SNAPOFFS 0
+      LENGTH 6.86972921517244
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.484108 0 1 0 0 0
+      FADEOUT 1 0.41495 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {48E25FC2-7BAB-2442-A0D6-B30D2160ACF7}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 132.49294135635989
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {77BC4442-6C71-D047-BEEB-64D3B53FCD4C}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 98.17623113579509
+      SNAPOFFS 0
+      LENGTH 3.83632852066636
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.410173 0 1 0 0 0
+      FADEOUT 1 0.361918 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {C77D9D03-BB18-A34F-B439-C5278AC8C597}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 144.1059738244619
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {74CB6755-5510-8642-9FEA-166650A62B9D}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 105.19743616418447
+      SNAPOFFS 0
+      LENGTH 3.16074865539179
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.33779 0 1 0 0 0
+      FADEOUT 1 0.33779 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {F43F1486-DD04-C741-9898-E800448F7B6A}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 151.12717885285133
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4874F44D-4C23-E847-A56C-4692DA2D3E66}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 110.40636996044854
+      SNAPOFFS 0
+      LENGTH 2.07075076321061
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.530314 0 1 0 0 0
+      FADEOUT 1 0.353543 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {128F2321-C506-3B4F-B5F1-B313993F633A}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 159.41406131611967
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D5715A14-F670-C149-B1F6-F857E613AB28}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 119.48112474427556
+      SNAPOFFS 0
+      LENGTH 3.71568925901019
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.425392 0 1 0 0 0
+      FADEOUT 1 0.603196 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {8FD12BD6-F8B1-4140-B07B-2F2CA7978AE3}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 165.41086743294255
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {72139956-BD51-CA4B-8739-D278197D97E2}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 126.815991852971
+      SNAPOFFS 0
+      LENGTH 1.18226476423051
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.33779 0 1 0 0 0
+      FADEOUT 1 0.410173 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {B6E922B5-33E2-094A-B855-6399034510E3}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 173.21926510579203
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {34069EF5-F2F8-D043-A3C5-971EF5A025E0}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 129.7113341327192
+      SNAPOFFS 0
+      LENGTH 1.7372053678489
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.265406 0 1 0 0 0
+      FADEOUT 1 0.434301 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {D1E4056D-0033-E447-A797-50D1C3FE4107}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 176.01967269711608
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {27C2EACA-F5F9-4247-A5DD-9BE3D8959E2D}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 133.33051198240443
+      SNAPOFFS 0
+      LENGTH 3.9328399299913
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.627324 0 1 0 0 0
+      FADEOUT 1 1.025983 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {E8CB986D-9101-6344-AB17-5FCFDBEE7191}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 179.45327748972113
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5FCEE0AF-AE5F-2A45-B7AF-0122C4B629FF}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 139.02468513257588
+      SNAPOFFS 0
+      LENGTH 2.21976241447362
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.458429 0 1 0 0 0
+      FADEOUT 1 0.413575 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {FC724871-5839-B947-BEE5-65A4C8E4A9CD}
+      IID 1
+      NAME "Lattice .mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 184.95442782124269
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AFE740B4-675A-5E42-98B8-307BB6889213}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+  >
+>

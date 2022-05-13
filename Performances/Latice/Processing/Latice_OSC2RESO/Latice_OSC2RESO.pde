@@ -25,9 +25,9 @@ String featureString = "";
 
 int xPos = 1;         // horizontal position of the graph
 float inByte = 0;
-int localPort = 13000;
-int localPortWeki = 14000;
-int localPortWekiAudio = 80000;
+int localPort = 12000;
+int localPortWeki = 13000;
+int localPortWekiAudio = 70000;
 
 //*NICE CONTROLS VARIABLES*//
 import controlP5.*;
@@ -51,9 +51,9 @@ void setup() {
    */
 
   /// adress for wekinator helper
-  myRemoteLocation = new NetAddress("127.0.0.1", 10000);
+  myRemoteLocation = new NetAddress("127.0.0.1", 9000);
   // remoteWekiAudio = new NetAddress("192.168.43.102", 57120);
-  remoteWekiAudio = new NetAddress("127.0.0.1", 5000);
+  remoteWekiAudio = new NetAddress("127.0.0.1", 4000);
   /// address for arduino
   myRemoteArduino = new NetAddress("192.168.8.11", 8888);
 
@@ -167,19 +167,19 @@ void outputData() {
   pushStyle();
   textSize(12);
   fill(255);
-  text("Volume 1", 540, 270);
+  text("HEIGHT 1", 540, 270);
   text(p0, 540, 290);
-  text("Pitch", 610, 270);
+  text("TILT 1", 610, 270);
   text(p1, 610, 290);
-  text("Dir Rep 1", 680, 270);
+  text("JAGGINES 1", 680, 270);
   text(p2, 680, 290);
-  text("Shuffle", 750, 270);
+  text("HEIGHT 2", 750, 270);
   text(p3, 750, 290);
-  text("Paning", 810, 270);
+  text("TILT 2", 810, 270);
   text(p4, 810, 290);
-  text("Freq Filter", 880, 270);
+  text("JAGGINES 2", 880, 270);
   text(p5, 880, 290);
-  text("Gain Filter", 950, 270);
+  text("positiony 2", 950, 270);
   text(p6, 950, 290);
   popStyle();
 }

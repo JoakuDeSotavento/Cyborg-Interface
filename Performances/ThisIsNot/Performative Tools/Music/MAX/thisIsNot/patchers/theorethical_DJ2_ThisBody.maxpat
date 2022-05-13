@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 137.0, 83.0, 1001.0, 607.0 ],
+		"rect" : [ 137.0, 83.0, 1070.0, 694.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -129,10 +129,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.750014999999962, 67.0, 77.0, 34.0 ],
+					"patching_rect" : [ 84.750014999999962, 67.0, 77.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 143.6729905714285, 21.0, 77.0, 34.0 ],
+					"presentation_rect" : [ 143.6729905714285, 21.0, 77.0, 33.0 ],
 					"text" : "OFF Performance"
 				}
 
@@ -158,10 +158,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 792.000000000000114, 1024.496478000000025, 77.0, 34.0 ],
+					"patching_rect" : [ 792.000000000000114, 1024.496478000000025, 77.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 206.815847714285638, 87.0, 77.0, 34.0 ],
+					"presentation_rect" : [ 206.815847714285638, 87.0, 77.0, 33.0 ],
 					"text" : "Reset Reverb"
 				}
 
@@ -189,7 +189,7 @@
 					"patching_rect" : [ 878.196177023437485, 231.0, 77.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 334.387276285714279, 251.0, 77.0, 20.0 ],
-					"text" : "thisIsNot"
+					"text" : "Lattice"
 				}
 
 			}
@@ -300,20 +300,20 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 79.25, 210.0, 29.5, 22.0 ],
-									"text" : "84"
+									"text" : "27"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"linecount" : 8,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.262196779251099, 179.0, 1363.737803220748901, 119.0 ],
-									"text" : "append thisIsNot01.aif, append thisIsNot02.aif, append thisIsNot03.aif, append thisIsNot04.aif, append thisIsNot05.aif, append thisIsNot06.aif, append thisIsNot07.aif, append thisIsNot08.aif, append thisIsNot09.aif, append thisIsNot10.aif, append thisIsNot11.aif, append thisIsNot12.aif, append thisIsNot13.aif, append thisIsNot14.aif, append thisIsNot15.aif, append thisIsNot16.aif, append thisIsNot17.aif, append thisIsNot18.aif, append thisIsNot19.aif, append thisIsNot20.aif, append thisIsNot21.aif, append thisIsNot22.aif, append thisIsNot23.aif, append thisIsNot24.aif, append thisIsNot25.aif, append thisIsNot26.aif, append thisIsNot27.aif, append thisIsNot28.aif, append thisIsNot29.aif, append thisIsNot30.aif, append thisIsNot31.aif, append thisIsNot32.aif, append thisIsNot33.aif, append thisIsNot34.aif, append thisIsNot35.aif, append thisIsNot36.aif, append thisIsNot37.aif, append thisIsNot38.aif, append thisIsNot39.aif, append thisIsNot40.aif, append thisIsNot41.aif, append thisIsNot42.aif, append thisIsNot43.aif, append thisIsNot44.aif, append thisIsNot45.aif, append thisIsNot46.aif, append thisIsNot47.aif, append thisIsNot48.aif, append thisIsNot49.aif, append thisIsNot50.aif, append thisIsNot51.aif, append thisIsNot52.aif, append thisIsNot53.aif, append thisIsNot54.aif, append thisIsNot55.aif, append thisIsNot56.aif, append thisIsNot57.aif, append thisIsNot58.aif, append thisIsNot59.aif, append thisIsNot60.aif, append thisIsNot61.aif, append thisIsNot62.aif, append thisIsNot63.aif, append thisIsNot64.aif, append thisIsNot65.aif, append thisIsNot66.aif, append thisIsNot67.aif, append thisIsNot68.aif, append thisIsNot69.aif, append thisIsNot70.aif, append thisIsNot71.aif, append thisIsNot72.aif, append thisIsNot73.aif, append thisIsNot74.aif, append thisIsNot75.aif, append thisIsNot76.aif, append thisIsNot77.aif, append thisIsNot78.aif, append thisIsNot79.aif, append thisIsNot80.aif, append thisIsNot81.aif, append thisIsNot82.aif, append thisIsNot83.aif"
+									"patching_rect" : [ 164.262196779251099, 179.0, 860.0, 76.0 ],
+									"text" : "append lattice01-001.aif, append lattice01-002.aif, append lattice01-003.aif, append lattice01-004.aif, append lattice01-005.aif, append lattice01-006.aif, append lattice01-007.aif, append lattice01-008.aif, append lattice01-009.aif, append lattice01-010.aif, append lattice01-011.aif, append lattice01-012.aif, append lattice01-013.aif, append lattice01-014.aif, append lattice01-015.aif, append lattice01-016.aif, append lattice01-017.aif, append lattice01-018.aif, append lattice01-019.aif, append lattice01-020.aif, append lattice01-021.aif, append lattice01-022.aif, append lattice01-023.aif, append lattice01-024.aif, append lattice01-025.aif, append lattice01-026.aif"
 								}
 
 							}
@@ -410,7 +410,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 878.196177023437485, 307.0, 65.0, 22.0 ],
+					"patching_rect" : [ 878.196177023437485, 307.0, 54.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -418,7 +418,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p thisIsNot"
+					"text" : "p Lattice"
 				}
 
 			}
@@ -441,10 +441,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.000000000000114, 981.854877000000101, 77.0, 34.0 ],
+					"patching_rect" : [ 708.000000000000114, 981.854877000000101, 77.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 87.1729905714285, 130.0, 77.0, 34.0 ],
+					"presentation_rect" : [ 87.1729905714285, 130.0, 77.0, 33.0 ],
 					"text" : "REVERB ON"
 				}
 
@@ -618,7 +618,7 @@
 					"patching_rect" : [ 886.2081298828125, 1210.5, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 724.2081298828125, 426.5, 360.0, 155.0 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 377.470062255859375, 1.078859567642212, 0.433087110519409, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 8, 1, 0, 0, 630.99774169921875, 9.534159660339355, 0.433087110519409, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -1466,7 +1466,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 278.773803999999927, 67.0, 97.0, 22.0 ],
-					"text" : "udpreceive 4000"
+					"text" : "udpreceive 5000"
 				}
 
 			}
@@ -1513,7 +1513,7 @@
 					"patching_rect" : [ 866.4583740234375, 811.471595999999977, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 724.2081298828125, 173.0, 360.0, 155.0 ],
-					"setfilter" : [ 0, 3, 1, 0, 0, 5291.2001953125, 6.440000057220459, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 3, 1, 0, 0, 4898.9267578125, 11.41066837310791, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -1730,7 +1730,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 146.280578999999932, 900.5, 61.0, 22.0 ],
+					"patching_rect" : [ 146.280578999999932, 900.5, 61.0, 21.0 ],
 					"text" : "pan2 100"
 				}
 
@@ -1812,7 +1812,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.773803999999927, 502.496477999999968, 80.0, 55.0 ],
+					"patching_rect" : [ 263.773803999999927, 502.496477999999968, 80.0, 54.0 ],
 					"text" : "Set playback speed."
 				}
 
@@ -1980,7 +1980,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
-					"items" : [ "thisIsNot01.aif", ",", "thisIsNot02.aif", ",", "thisIsNot03.aif", ",", "thisIsNot04.aif", ",", "thisIsNot05.aif", ",", "thisIsNot06.aif", ",", "thisIsNot07.aif", ",", "thisIsNot08.aif", ",", "thisIsNot09.aif", ",", "thisIsNot10.aif", ",", "thisIsNot11.aif", ",", "thisIsNot12.aif", ",", "thisIsNot13.aif", ",", "thisIsNot14.aif", ",", "thisIsNot15.aif", ",", "thisIsNot16.aif", ",", "thisIsNot17.aif", ",", "thisIsNot18.aif", ",", "thisIsNot19.aif", ",", "thisIsNot20.aif", ",", "thisIsNot21.aif", ",", "thisIsNot22.aif", ",", "thisIsNot23.aif", ",", "thisIsNot24.aif", ",", "thisIsNot25.aif", ",", "thisIsNot26.aif", ",", "thisIsNot27.aif", ",", "thisIsNot28.aif", ",", "thisIsNot29.aif", ",", "thisIsNot30.aif", ",", "thisIsNot31.aif", ",", "thisIsNot32.aif", ",", "thisIsNot33.aif", ",", "thisIsNot34.aif", ",", "thisIsNot35.aif", ",", "thisIsNot36.aif", ",", "thisIsNot37.aif", ",", "thisIsNot38.aif", ",", "thisIsNot39.aif", ",", "thisIsNot40.aif", ",", "thisIsNot41.aif", ",", "thisIsNot42.aif", ",", "thisIsNot43.aif", ",", "thisIsNot44.aif", ",", "thisIsNot45.aif", ",", "thisIsNot46.aif", ",", "thisIsNot47.aif", ",", "thisIsNot48.aif", ",", "thisIsNot49.aif", ",", "thisIsNot50.aif", ",", "thisIsNot51.aif", ",", "thisIsNot52.aif", ",", "thisIsNot53.aif", ",", "thisIsNot54.aif", ",", "thisIsNot55.aif", ",", "thisIsNot56.aif", ",", "thisIsNot57.aif", ",", "thisIsNot58.aif", ",", "thisIsNot59.aif", ",", "thisIsNot60.aif", ",", "thisIsNot61.aif", ",", "thisIsNot62.aif", ",", "thisIsNot63.aif", ",", "thisIsNot64.aif", ",", "thisIsNot65.aif", ",", "thisIsNot66.aif", ",", "thisIsNot67.aif", ",", "thisIsNot68.aif", ",", "thisIsNot69.aif", ",", "thisIsNot70.aif", ",", "thisIsNot71.aif", ",", "thisIsNot72.aif", ",", "thisIsNot73.aif", ",", "thisIsNot74.aif", ",", "thisIsNot75.aif", ",", "thisIsNot76.aif", ",", "thisIsNot77.aif", ",", "thisIsNot78.aif", ",", "thisIsNot79.aif", ",", "thisIsNot80.aif", ",", "thisIsNot81.aif", ",", "thisIsNot82.aif", ",", "thisIsNot83.aif" ],
+					"items" : [ "lattice01-001.aif", ",", "lattice01-002.aif", ",", "lattice01-003.aif", ",", "lattice01-004.aif", ",", "lattice01-005.aif", ",", "lattice01-006.aif", ",", "lattice01-007.aif", ",", "lattice01-008.aif", ",", "lattice01-009.aif", ",", "lattice01-010.aif", ",", "lattice01-011.aif", ",", "lattice01-012.aif", ",", "lattice01-013.aif", ",", "lattice01-014.aif", ",", "lattice01-015.aif", ",", "lattice01-016.aif", ",", "lattice01-017.aif", ",", "lattice01-018.aif", ",", "lattice01-019.aif", ",", "lattice01-020.aif", ",", "lattice01-021.aif", ",", "lattice01-022.aif", ",", "lattice01-023.aif", ",", "lattice01-024.aif", ",", "lattice01-025.aif", ",", "lattice01-026.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2912,8 +2912,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pan2.maxpat",
-				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../Users/Joaku De Sotavento/AppData/Roaming/Cycling '74/Max 8/examples/spatialization/panning/lib",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

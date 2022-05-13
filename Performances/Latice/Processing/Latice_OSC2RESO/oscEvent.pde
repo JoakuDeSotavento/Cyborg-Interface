@@ -36,6 +36,5 @@ void oscEvent(OscMessage theOscMessage) {
     }
   }
   //////// Put False for Max and true for Resolume Arena
-  //sendOSC(p0, p1, p2, p3, p4, p5, p6, true);
-  sendOSC(p0, p1, p2, p3, p4, p5, p6, false);
+  sendOSC(p0, p1, p2, p3, p4, p5, p6, true);
 }
