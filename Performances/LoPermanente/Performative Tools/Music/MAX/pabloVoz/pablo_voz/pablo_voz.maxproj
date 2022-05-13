@@ -2,7 +2,7 @@
 	"name" : "pablo_voz",
 	"version" : 1,
 	"creationdate" : 3734342527,
-	"modificationdate" : 3734342609,
+	"modificationdate" : 3735222872,
 	"viewrect" : [ 897.0, 196.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -42,6 +42,26 @@
 			"viento2.aif" : 			{
 				"kind" : "audiofile",
 				"local" : 1
+			}
+,
+			"splash2.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/SoundPitch-Vibrations-v1 2/media",
+					"projectrelativepath" : "../../../../../../../../i_mBODY-Sonification/SoundPitch-Vibrations-v1 2/media"
+				}
+
+			}
+,
+			"wind1.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/MAX/pabloVoz/pablo_voz/media",
+					"projectrelativepath" : "../../../../../../Latice/Performative Tools/Music/MAX/pabloVoz/pablo_voz/media"
+				}
+
 			}
 
 		}

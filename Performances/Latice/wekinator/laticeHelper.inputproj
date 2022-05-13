@@ -19,9 +19,114 @@
     </inputNames>
   </inputs>
   <outputs>
-    <outputs class="linked-list"/>
-    <numOutputTypes>0</numOutputTypes>
-    <dimensionality>0</dimensionality>
+    <outputs class="linked-list">
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_1_Avg1</name>
+        <index>0</index>
+        <windowSize>1</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_1_Max1stDiff10</name>
+        <index>0</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.Max1stWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_1_Max2ndDiff10</name>
+        <index>0</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.Max2ndWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_2_Avg1</name>
+        <index>1</index>
+        <windowSize>1</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_1_Max1stDiff10(2)</name>
+        <index>0</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.Max1stWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_1_Max2ndDiff10(2)</name>
+        <index>0</index>
+        <windowSize>10</windowSize>
+        <op class="wekiinputhelper.Modifiers.Max2ndWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.ExpressionInput>
+        <name>expression1</name>
+        <expression class="expr.BinaryExpr">
+          <variablesUsed>
+            <string>emg_2</string>
+            <string>emg_1</string>
+          </variablesUsed>
+          <rator>3</rator>
+          <rand0 class="expr.BinaryExpr">
+            <rator>0</rator>
+            <rand0 class="expr.Variable">
+              <name>emg_1</name>
+              <val>109.0</val>
+            </rand0>
+            <rand1 class="expr.Variable">
+              <name>emg_2</name>
+              <val>87.0</val>
+            </rand1>
+          </rand0>
+          <rand1 class="expr.LiteralExpr">
+            <v>2.0</v>
+          </rand1>
+        </expression>
+        <variables>
+          <expr.Variable reference="../../expression/rand0/rand1"/>
+          <expr.Variable reference="../../expression/rand0/rand0"/>
+        </variables>
+        <indexedVariables>
+          <wekiinputhelper.Modifiers.IndexedVar>
+            <originalVariable>emg_2</originalVariable>
+            <unindexedName>emg_2</unindexedName>
+            <delay>0</delay>
+          </wekiinputhelper.Modifiers.IndexedVar>
+          <wekiinputhelper.Modifiers.IndexedVar>
+            <originalVariable>emg_1</originalVariable>
+            <unindexedName>emg_1</unindexedName>
+            <delay>0</delay>
+          </wekiinputhelper.Modifiers.IndexedVar>
+        </indexedVariables>
+        <indexes>
+          <int>1</int>
+          <int>0</int>
+        </indexes>
+        <originalString>(emg_1+emg_2)/2</originalString>
+        <buffersForInputs>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+        </buffersForInputs>
+      </wekiinputhelper.Modifiers.ExpressionInput>
+    </outputs>
+    <numOutputTypes>7</numOutputTypes>
+    <dimensionality>7</dimensionality>
     <hasDependencies>false</hasDependencies>
   </outputs>
   <inputTriggerer class="wekiinputhelper.TriggerOnTimes">
@@ -35,7 +140,7 @@
     <runningListener class="wekiinputhelper.InputTriggerer$1">
       <outer-class class="wekiinputhelper.TriggerOnTimes" reference="../.."/>
     </runningListener>
-    <numMs>150</numMs>
+    <numMs>100</numMs>
   </inputTriggerer>
-  <isSendingOriginalInputs>true</isSendingOriginalInputs>
+  <isSendingOriginalInputs>false</isSendingOriginalInputs>
 </WekiInputHelperFileData>

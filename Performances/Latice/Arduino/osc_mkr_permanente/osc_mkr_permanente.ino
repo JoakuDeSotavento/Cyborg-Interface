@@ -70,9 +70,9 @@ WiFiUDP Udp;
 //EthernetUDP Udp;
 
 //the Arduino's IP
-IPAddress ip(192, 168, 196, 11);
+IPAddress ip(192, 168, 152, 60);
 //destination IP
-IPAddress outIp(192, 168, 196, 10);
+IPAddress outIp(192, 168, 152, 62);
 const unsigned int outPort = 12000;
 //const unsigned int outPort2 = 13000;
 const unsigned int inPort = 888;
