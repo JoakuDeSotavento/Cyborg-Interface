@@ -65,7 +65,7 @@ CircularBuffer<int, 10> buffer5;
 CircularBuffer<int, 10> buffer6;
 CircularBuffer<int, 10> buffer7;
 
-WiFiUDP Udp;
+WiFiUDP Udp, Udp2;
 
 //EthernetUDP Udp;
 
@@ -197,7 +197,7 @@ void loop() {
   s5 = s5 / buffer5.size();
   s6 = s6 / buffer6.size();
 
-  OSCBundle bndl;
+  OSCBundle bndl, bndl2;
   bndl.add("/analog/0").add((int32_t)s);
   bndl.add("/analog/1").add((int32_t)s1);
   bndl.add("/analog/2").add((int32_t)s2);
@@ -207,7 +207,10 @@ void loop() {
   bndl.add("/analog/6").add((int32_t)s6);
 
   ///////////////////////////// Need to put the IP directly VERY IMPORTANT  ////////////////////////////////////////
-  Udp.beginPacket(outIp, outPort);
+  Udp.beginPacket(outIp, 12000);
+  bndl.send(Udp); // send the bytes to the SLIP stream
+  Udp.endPacket(); // mark the end of the OSC Packet
+  Udp.beginPacket(outIp, 13000);
   bndl.send(Udp); // send the bytes to the SLIP stream
   Udp.endPacket(); // mark the end of the OSC Packet
   bndl.empty(); // free space occupied by message
@@ -218,10 +221,10 @@ void loop() {
   //msg.add((int32_t)analogRead(A0));
   //Serial.println((int32_t)analogRead(0));
 
-  Udp.beginPacket(outIp, outPort2);
-  msg.send(Udp); // send the bytes to the SLIP stream
-  Udp.endPacket(); // mark the end of the OSC Packet
-  msg.empty(); // free space occupied by message
+  //  Udp.beginPacket(outIp, outPort2);
+  //  bndl.send(Udp); // send the bytes to the SLIP stream
+  //  Udp.endPacket(); // mark the end of the OSC Packet
+  //  bndl.empty(); // free space occupied by message
 
   //* For the arduino to initiate the calibration process*//
   //aquí estoy tratabdo de meter la calibracion via processing
