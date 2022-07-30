@@ -55,11 +55,11 @@ void setup() {
   // remoteWekiAudio = new NetAddress("192.168.43.102", 57120);
   remoteWekiAudio = new NetAddress("127.0.0.1", 4000);
   /// address for arduino
-  myRemoteArduino = new NetAddress("192.168.8.11", 8888);
+  myRemoteArduino = new NetAddress("192.168.1.101", 8888);
 
   //// address for resolume
   //myRemoteReso = new NetAddress("127.0.0.1", 3000);
-  myRemoteReso = new NetAddress("192.168.152.81", 8000);
+  myRemoteReso = new NetAddress("192.168.1.102", 8000);
 
   //*NICE CONTROLS INICILIZATION*//
   cp5 = new ControlP5(this);

@@ -1,9 +1,9 @@
-<REAPER_PROJECT 0.1 "6.57/macOS-arm64" 1652452630
+<REAPER_PROJECT 0.1 "6.57/macOS-arm64" 1657987465
   <NOTES 0 2
   >
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
-  AUTOXFADE 1
+  AUTOXFADE 129
   ENVATTACH 3
   POOLEDENVATTACH 0
   MIXERUIFLAGS 11 48
@@ -16,8 +16,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 140.50230813490344
-  ZOOM 8.21765255352461 0 0
+  CURSOR 73.03872482556362
+  ZOOM 0.2566091411509 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 141.2444475470495
-  SELECTION2 0 141.2444475470495
+  SELECTION 0 1576.0467573696146
+  SELECTION2 0 1576.0467573696146
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -83,7 +83,7 @@
   >
   <TEMPOENVEX
     EGUID {446963C9-D13F-274B-8291-F7990A947A95}
-    ACT 1 -1
+    ACT 0 -1
     VIS 1 0 1
     LANEHEIGHT 0 0
     ARM 0
@@ -97,7 +97,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -140,7 +140,7 @@
       FADEIN 1 0.419629 0 1 0 0 0
       FADEOUT 1 0.3729 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {C4C3A284-FB57-7440-9342-7181FF1395B5}
       IID 1
       NAME "Lattice .mp3"
@@ -162,7 +162,7 @@
       FADEIN 1 0.193317 0 1 0 0 0
       FADEOUT 1 0.394513 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {0D85EC38-DAD6-7745-9C43-B926C3002BF8}
       IID 1
       NAME "Lattice .mp3"
@@ -184,7 +184,7 @@
       FADEIN 1 0.274999 0 1 0 0 0
       FADEOUT 1 0.282091 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {A4C0B779-56D4-3C4B-A5A6-45C90EC5F2C8}
       IID 1
       NAME "Lattice .mp3"
@@ -206,7 +206,7 @@
       FADEIN 1 0.210074 0 1 0 0 0
       FADEOUT 1 0.334482 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {AD40FBBE-DEC9-F441-8686-DDFDBA975BDE}
       IID 1
       NAME "Lattice .mp3"
@@ -228,7 +228,7 @@
       FADEIN 1 0.341516 0 1 0 0 0
       FADEOUT 1 0.294175 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {A3CE6FAB-B962-CD47-9D31-FBAC531B33CA}
       IID 1
       NAME "Lattice .mp3"
@@ -250,7 +250,7 @@
       FADEIN 1 0.384417 0 1 0 0 0
       FADEOUT 1 0.451101 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {614D2D94-CCD3-C142-8049-1DF29DED5F2F}
       IID 1
       NAME "Lattice .mp3"
@@ -272,7 +272,7 @@
       FADEIN 1 0.354778 0 1 0 0 0
       FADEOUT 1 0.416761 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {71E4ABFF-0D7D-EF4F-B74C-41141F0A566A}
       IID 1
       NAME "Lattice .mp3"
@@ -294,7 +294,7 @@
       FADEIN 1 0.331271 0 1 0 0 0
       FADEOUT 1 0.33359 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {E007D52C-DB5A-C049-9C8B-F6C9E8EDA840}
       IID 1
       NAME "Lattice .mp3"
@@ -316,7 +316,7 @@
       FADEIN 1 0.453186 0 1 0 0 0
       FADEOUT 1 0.24684 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {B0925487-2463-B245-835B-9795406E2B00}
       IID 1
       NAME "Lattice .mp3"
@@ -338,7 +338,7 @@
       FADEIN 1 0.456938 0 1 0 0 0
       FADEOUT 1 0.416809 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {88DC51F7-A12D-9740-B43A-BFE8AA21A327}
       IID 1
       NAME "Lattice .mp3"
@@ -360,7 +360,7 @@
       FADEIN 1 0.585867 0 1 0 0 0
       FADEOUT 1 0.5408 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {114E594C-B395-B545-A6B6-DD274C6EFB2E}
       IID 1
       NAME "Lattice .mp3"
@@ -382,7 +382,7 @@
       FADEIN 1 0.428134 0 1 0 0 0
       FADEOUT 1 0.450667 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {B8947376-B895-A44C-B9CB-764AC4102584}
       IID 1
       NAME "Lattice .mp3"
@@ -404,7 +404,7 @@
       FADEIN 1 0.585867 0 1 0 0 0
       FADEOUT 1 0.450667 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {9764BC82-5987-9745-B4C1-CF65CCD21F7C}
       IID 1
       NAME "Lattice .mp3"
@@ -426,7 +426,7 @@
       FADEIN 1 0.315467 0 1 0 0 0
       FADEOUT 1 0.450667 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {E3C53826-FD3A-1F4E-A646-0E675D5E2ED0}
       IID 1
       NAME "Lattice .mp3"
@@ -448,7 +448,7 @@
       FADEIN 1 0.585867 0 1 0 0 0
       FADEOUT 1 0.518267 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {92A0059A-029B-AF41-AB15-330C06421062}
       IID 1
       NAME "Lattice .mp3"
@@ -470,7 +470,7 @@
       FADEIN 1 0.530214 0 1 0 0 0
       FADEOUT 1 0.543929 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {E7D051FD-E634-C548-81FC-5ADC4E6AD24E}
       IID 1
       NAME "Lattice .mp3"
@@ -492,7 +492,7 @@
       FADEIN 1 0.41495 0 1 0 0 0
       FADEOUT 1 0.49239 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {1E32A895-4077-CB4E-A970-88C80D0E7CB0}
       IID 1
       NAME "Lattice .mp3"
@@ -514,7 +514,7 @@
       FADEIN 1 0.484108 0 1 0 0 0
       FADEOUT 1 0.41495 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {48E25FC2-7BAB-2442-A0D6-B30D2160ACF7}
       IID 1
       NAME "Lattice .mp3"
@@ -536,7 +536,7 @@
       FADEIN 1 0.410173 0 1 0 0 0
       FADEOUT 1 0.361918 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {C77D9D03-BB18-A34F-B439-C5278AC8C597}
       IID 1
       NAME "Lattice .mp3"
@@ -558,7 +558,7 @@
       FADEIN 1 0.33779 0 1 0 0 0
       FADEOUT 1 0.33779 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {F43F1486-DD04-C741-9898-E800448F7B6A}
       IID 1
       NAME "Lattice .mp3"
@@ -580,7 +580,7 @@
       FADEIN 1 0.530314 0 1 0 0 0
       FADEOUT 1 0.353543 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {128F2321-C506-3B4F-B5F1-B313993F633A}
       IID 1
       NAME "Lattice .mp3"
@@ -602,7 +602,7 @@
       FADEIN 1 0.425392 0 1 0 0 0
       FADEOUT 1 0.603196 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {8FD12BD6-F8B1-4140-B07B-2F2CA7978AE3}
       IID 1
       NAME "Lattice .mp3"
@@ -624,7 +624,7 @@
       FADEIN 1 0.33779 0 1 0 0 0
       FADEOUT 1 0.410173 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {B6E922B5-33E2-094A-B855-6399034510E3}
       IID 1
       NAME "Lattice .mp3"
@@ -646,7 +646,7 @@
       FADEIN 1 0.265406 0 1 0 0 0
       FADEOUT 1 0.434301 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {D1E4056D-0033-E447-A797-50D1C3FE4107}
       IID 1
       NAME "Lattice .mp3"
@@ -668,7 +668,7 @@
       FADEIN 1 0.627324 0 1 0 0 0
       FADEOUT 1 1.025983 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {E8CB986D-9101-6344-AB17-5FCFDBEE7191}
       IID 1
       NAME "Lattice .mp3"
@@ -690,7 +690,7 @@
       FADEIN 1 0.458429 0 1 0 0 0
       FADEOUT 1 0.413575 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {FC724871-5839-B947-BEE5-65A4C8E4A9CD}
       IID 1
       NAME "Lattice .mp3"
@@ -701,6 +701,52 @@
       GUID {AFE740B4-675A-5E42-98B8-307BB6889213}
       <SOURCE MP3
         FILE "/Users/JoakuDeSotavento1/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/Lattice .mp3" 1
+      >
+    >
+  >
+  <TRACK {AEA098A5-5F59-4D4F-9CE4-E15A83182CBF}
+    NAME lattice_berlin
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {AEA098A5-5F59-4D4F-9CE4-E15A83182CBF}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 1576.0467573696146
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BD9521A1-9D08-2942-8DB6-5C6AC202A784}
+      IID 27
+      NAME lattice_berlin.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E828B576-D7EA-3A41-948E-DA8F66EAEFBA}
+      <SOURCE MP3
+        FILE "/Users/JoakuDeSotavento1/Desktop/LATTICE/lattice_berlin.mp3" 1
       >
     >
   >
