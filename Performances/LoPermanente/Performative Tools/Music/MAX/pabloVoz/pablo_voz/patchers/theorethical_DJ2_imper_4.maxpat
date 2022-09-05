@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 291.0, 331.0, 1265.0, 763.0 ],
+		"rect" : [ 34.0, 100.0, 1265.0, 769.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1618,7 +1618,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2187.4583740234375, 930.508673587158114, 360.0, 155.0 ],
-					"setfilter" : [ 0, 8, 1, 0, 0, 4046.56982421875, 10.006893157958984, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 8, 1, 0, 0, 20.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -2182,8 +2182,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.262196779251099, 179.0, 676.0, 22.0 ],
-									"text" : "append splash2.aif, append wind1.aif, append papel1.mp3, append papel2.mp3, append lluvia1.mp3, append volcanico1.mp3"
+									"patching_rect" : [ 164.262196779251099, 179.0, 779.0, 22.0 ],
+									"text" : "append splash2.aif, append wind1.aif, append papel1.mp3, append papel2.mp3, append lluvia1.mp3, append volcanico1.mp3, append elOjo.wav"
 								}
 
 							}
@@ -3106,7 +3106,7 @@
 					"patching_rect" : [ 866.4583740234375, 795.012195587158089, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 715.2081298828125, 224.0, 360.0, 155.0 ],
-					"setfilter" : [ 0, 8, 1, 0, 0, 4046.56982421875, 10.006893157958984, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 8, 1, 0, 0, 20.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
