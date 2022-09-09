@@ -2,8 +2,8 @@
 	"name" : "pablo_voz",
 	"version" : 1,
 	"creationdate" : 3734342527,
-	"modificationdate" : 3735222872,
-	"viewrect" : [ 897.0, 196.0, 300.0, 500.0 ],
+	"modificationdate" : 3745408175,
+	"viewrect" : [ 0.0, 273.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -17,6 +17,11 @@
 			}
 ,
 			"theorethical_DJ2_imper_4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"theorethical_DJ2_posiblesPresentes_2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -46,22 +51,42 @@
 ,
 			"splash2.aif" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/SoundPitch-Vibrations-v1 2/media",
-					"projectrelativepath" : "../../../../../../../../i_mBODY-Sonification/SoundPitch-Vibrations-v1 2/media"
-				}
-
+				"local" : 1
 			}
 ,
 			"wind1.aif" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/Latice/Performative Tools/Music/MAX/pabloVoz/pablo_voz/media",
-					"projectrelativepath" : "../../../../../../Latice/Performative Tools/Music/MAX/pabloVoz/pablo_voz/media"
-				}
-
+				"local" : 1
+			}
+,
+			"elOjo.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"texto3.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"posiblesPress-004.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"posiblesPress-003.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"posiblesPress-002.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"posiblesPress-001.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
 			}
 
 		}
