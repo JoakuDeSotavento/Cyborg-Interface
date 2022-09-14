@@ -2,7 +2,7 @@
 	"name" : "pablo_voz",
 	"version" : 1,
 	"creationdate" : 3734342527,
-	"modificationdate" : 3745408175,
+	"modificationdate" : 3745658466,
 	"viewrect" : [ 0.0, 273.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -85,6 +85,11 @@
 			}
 ,
 			"posiblesPress-001.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"texto4.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
