@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 22.0, 100.0, 1468.0, 713.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 785.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -330,7 +330,7 @@
 									"right_feedback" : 0.6912,
 									"right_moddepth" : 0.928,
 									"right_modfreq" : 0.16,
-									"wet_dry" : 100.0
+									"wet_dry" : 0.0
 								}
 
 							}
@@ -362,7 +362,7 @@
 												"right_feedback" : 0.6912,
 												"right_moddepth" : 0.928,
 												"right_modfreq" : 0.16,
-												"wet_dry" : 100.0
+												"wet_dry" : 0.0
 											}
 
 										}
@@ -4472,7 +4472,7 @@
 					"patching_rect" : [ 10.0, 71.0, 487.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 71.0, 487.0, 21.0 ],
-					"text" : "De Pablo Zamorano y Joaku de Sotavento",
+					"text" : "Joaku de Sotavento",
 					"textcolor" : [ 0.426676005125046, 0.426663011312485, 0.426670014858246, 1.0 ]
 				}
 
@@ -4488,7 +4488,7 @@
 					"patching_rect" : [ 10.0, 10.0, 486.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 486.0, 60.0 ],
-					"text" : "Patch Lo Permanete"
+					"text" : "Hack Meeting"
 				}
 
 			}
@@ -5340,6 +5340,26 @@
 					"parameter_longname" : "pictctrl[11]"
 				}
 ,
+				"obj-191::obj-4" : 				{
+					"parameter_longname" : "live.button"
+				}
+,
+				"obj-191::obj-54" : 				{
+					"parameter_longname" : "Mix 2[3]"
+				}
+,
+				"obj-191::obj-78" : 				{
+					"parameter_longname" : "pictctrl[6]"
+				}
+,
+				"obj-191::obj-84" : 				{
+					"parameter_longname" : "pictctrl[4]"
+				}
+,
+				"obj-191::obj-90" : 				{
+					"parameter_longname" : "pictctrl[7]"
+				}
+,
 				"obj-224::obj-4" : 				{
 					"parameter_longname" : "live.button[3]"
 				}
@@ -5444,7 +5464,8 @@
 			}
 , 			{
 				"name" : "vz.midictrlr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/hackMeeting/pablo_voz/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
