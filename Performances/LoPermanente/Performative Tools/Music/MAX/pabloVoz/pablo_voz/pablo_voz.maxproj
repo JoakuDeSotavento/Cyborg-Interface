@@ -2,8 +2,8 @@
 	"name" : "pablo_voz",
 	"version" : 1,
 	"creationdate" : 3734342527,
-	"modificationdate" : 3745658466,
-	"viewrect" : [ 0.0, 273.0, 300.0, 500.0 ],
+	"modificationdate" : 3748269904,
+	"viewrect" : [ 61.0, 256.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -92,6 +92,26 @@
 			"texto4.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
+			}
+,
+			"caracola.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/ilSoplo",
+					"projectrelativepath" : "../../../../../../ilSoplo"
+				}
+
+			}
+,
+			"launedas.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/ilSoplo",
+					"projectrelativepath" : "../../../../../../ilSoplo"
+				}
+
 			}
 
 		}

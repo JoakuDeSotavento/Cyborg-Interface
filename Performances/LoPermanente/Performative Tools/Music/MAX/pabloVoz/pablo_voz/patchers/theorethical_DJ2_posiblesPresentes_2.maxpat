@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 221.0, 1444.0, 665.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 785.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1712,7 +1712,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1339.280579000000216, 345.163146999999981, 150.0, 23.0 ],
+					"patching_rect" : [ 1338.280579000000216, 345.163146999999981, 150.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.6729905714285, 588.5, 150.0, 23.0 ]
 				}
@@ -2031,7 +2031,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2187.4583740234375, 930.508673587158114, 360.0, 155.0 ],
-					"setfilter" : [ 0, 8, 1, 0, 0, 6908.50048828125, 7.085162162780762, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 8, 1, 0, 0, 978.39996337890625, 8.479999542236328, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -2450,7 +2450,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-128",
-					"items" : [ "splash2.aif", ",", "wind1.aif", ",", "papel1.mp3", ",", "papel2.mp3", ",", "lluvia1.mp3", ",", "volcanico1.mp3", ",", "elOjo.wav", ",", "intro.wav", ",", "textos2.wav", ",", "texto3.wav", ",", "texto4.wav", ",", "posiblesPress-001.wav", ",", "posiblesPress-002.wav", ",", "posiblesPress-003.wav", ",", "posiblesPress-004.wav" ],
+					"items" : [ "splash2.aif", ",", "wind1.aif", ",", "papel1.mp3", ",", "papel2.mp3", ",", "lluvia1.mp3", ",", "volcanico1.mp3", ",", "elOjo.wav", ",", "intro.wav", ",", "textos2.wav", ",", "texto3.wav", ",", "texto4.wav", ",", "posiblesPress-001.wav", ",", "posiblesPress-002.wav", ",", "posiblesPress-003.wav", ",", "posiblesPress-004.wav", ",", "caracola.wav", ",", "launedas.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2583,7 +2583,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 79.25, 210.0, 29.5, 22.0 ],
-									"text" : "15"
+									"text" : "17"
 								}
 
 							}
@@ -2596,7 +2596,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.262196779251099, 179.0, 894.737803220748901, 49.0 ],
-									"text" : "append splash2.aif, append wind1.aif, append papel1.mp3, append papel2.mp3, append lluvia1.mp3, append volcanico1.mp3, append elOjo.wav, append intro.wav, append textos2.wav, append texto3.wav, append texto4.wav, append posiblesPress-001.wav, append posiblesPress-002.wav, append posiblesPress-003.wav, append posiblesPress-004.wav"
+									"text" : "append splash2.aif, append wind1.aif, append papel1.mp3, append papel2.mp3, append lluvia1.mp3, append volcanico1.mp3, append elOjo.wav, append intro.wav, append textos2.wav, append texto3.wav, append texto4.wav, append posiblesPress-001.wav, append posiblesPress-002.wav, append posiblesPress-003.wav, append posiblesPress-004.wav, append caracola.wav, append launedas.wav"
 								}
 
 							}
@@ -3519,7 +3519,7 @@
 					"patching_rect" : [ 866.4583740234375, 795.012195587158089, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 719.2081298828125, 316.0, 360.0, 155.0 ],
-					"setfilter" : [ 0, 8, 1, 0, 0, 6908.50048828125, 7.085162162780762, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 8, 1, 0, 0, 978.39996337890625, 8.479999542236328, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -3975,7 +3975,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
-					"items" : [ "splash2.aif", ",", "wind1.aif", ",", "papel1.mp3", ",", "papel2.mp3", ",", "lluvia1.mp3", ",", "volcanico1.mp3", ",", "elOjo.wav", ",", "intro.wav", ",", "textos2.wav", ",", "texto3.wav", ",", "texto4.wav", ",", "posiblesPress-001.wav", ",", "posiblesPress-002.wav", ",", "posiblesPress-003.wav", ",", "posiblesPress-004.wav" ],
+					"items" : [ "splash2.aif", ",", "wind1.aif", ",", "papel1.mp3", ",", "papel2.mp3", ",", "lluvia1.mp3", ",", "volcanico1.mp3", ",", "elOjo.wav", ",", "intro.wav", ",", "textos2.wav", ",", "texto3.wav", ",", "texto4.wav", ",", "posiblesPress-001.wav", ",", "posiblesPress-002.wav", ",", "posiblesPress-003.wav", ",", "posiblesPress-004.wav", ",", "caracola.wav", ",", "launedas.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5032,6 +5032,13 @@
 					"destination" : [ "obj-135", 0 ],
 					"order" : 0,
 					"source" : [ "obj-34", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-139", 0 ],
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
