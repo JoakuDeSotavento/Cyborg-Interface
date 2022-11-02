@@ -68,11 +68,11 @@
             <rator>0</rator>
             <rand0 class="expr.Variable">
               <name>emg_1</name>
-              <val>2.0</val>
+              <val>37.0</val>
             </rand0>
             <rand1 class="expr.Variable">
               <name>emg_2</name>
-              <val>1.0</val>
+              <val>37.0</val>
             </rand1>
           </rand0>
           <rand1 class="expr.LiteralExpr">

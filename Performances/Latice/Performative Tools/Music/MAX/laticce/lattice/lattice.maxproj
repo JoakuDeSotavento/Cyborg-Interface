@@ -2,7 +2,7 @@
 	"name" : "lattice",
 	"version" : 1,
 	"creationdate" : 3735292284,
-	"modificationdate" : 3735297218,
+	"modificationdate" : 3749622006,
 	"viewrect" : [ 373.0, 207.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,6 +29,11 @@
 					"projectrelativepath" : "../../../../../../ThisIsNot/Performative Tools/Music/MAX/thisIsNot/patchers"
 				}
 
+			}
+,
+			"RIoT_begining.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
