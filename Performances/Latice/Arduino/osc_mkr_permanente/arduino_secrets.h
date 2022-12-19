@@ -1,2 +1,2 @@
-#define SECRET_SSID "AnaShoes"
-#define SECRET_PASS "AnaShoes"
+#define SECRET_SSID "AnaShoes2"
+#define SECRET_PASS "AnaShoes2"
