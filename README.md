@@ -101,6 +101,6 @@ Protocolo de montaje del Joakinator en cuerpo
 <img src="./assets/becas-inba-conacyt-posgrado.png" width="200">
 
 
-- Suported by BODYinTRANSIT Sensory-driven Body Transformation Experiences On-the-move. UC3M.
+- Suported by BODYinTRANSIT Sensory-driven Body Transformation Experiences On-the-move, MagicShoes and i_mBODY Lab at UC3M.
 - With the collaboration of FUZZYGAB.4. UCLM
 - Project developed with the funding of CONACYT-FINBA. México; Medialab-Matadero. España."
