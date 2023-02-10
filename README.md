@@ -89,3 +89,18 @@ Protocolo de montaje del Joakinator en cuerpo
 > Encuentro Si fuese Tú, Facultad de Bellas Artes de Cuenca, UCLM, Abril, 2019
 
 - [Link](https://arterobotico.com/interfaz-ciborg-para-reflexionar-la-tecnologia/)
+
+## Agradecimientos
+
+<img src="./assets/Logo_mini_Body.png" width="100"> 
+<img src="./assets/BODYinTRANSIT_logo.jpg" width="200"> 
+<img src="./assets/I_mBODYlab_logo.jpg" width="150">
+<img src="./assets/logotipo_medialab.jpg" width="200">
+<img src="./assets/Marca-FuzzyGab.png" width="200">
+<img src="./assets/conacyt-logo.png" width="200">
+<img src="./assets/becas-inba-conacyt-posgrado.png" width="200">
+
+
+- Suported by BODYinTRANSIT Sensory-driven Body Transformation Experiences On-the-move. UC3M.
+- With the collaboration of FUZZYGAB.4. UCLM
+- Project developed with the funding of CONACYT-FINBA. México; Medialab-Matadero. España."

@@ -1,4 +1,4 @@
-<img src="../assets/Joakinator_Complutense.png" width="900">
+<img src="../assets/Joakinator_Complutense.png" width="720">
 
 # Taller Interfaz Cyborg
 
@@ -22,7 +22,17 @@ Estos archivos son necesarios para el funcionamiento del proyecto de audio y est
 
 Aquí encontraras el [contenido del workshop](https://docs.google.com/presentation/d/1TfPGoWbZKXpSUWjrv5Y0VLnvYOCxZb2MFB6kBpDMP4w/edit?usp=sharing)
 
-<img src="../assets/Logo_mini_Body.png" width="900">
-* Vinculado a BODYinTRANSIT Sensory-driven Body Transformation Experiences On-the-move. UC3M.
-** Vinculado a FUZZYGAB.4. UCLM
-*** Proyecto desarrollado con el apoyo de una beca de CONACYT-FINBA. México; Medialab-Matadero. España.
+## Agradecimientos
+
+<img src="../assets/Logo_mini_Body.png" width="100"> 
+<img src="../assets/BODYinTRANSIT_logo.jpg" width="200"> 
+<img src="../assets/I_mBODYlab_logo.jpg" width="150">
+<img src="../assets/logotipo_medialab.jpg" width="200">
+<img src="../assets/Marca-FuzzyGab.png" width="200">
+<img src="../assets/conacyt-logo.png" width="200">
+<img src="../assets/becas-inba-conacyt-posgrado.png" width="200">
+
+
+- Suported by BODYinTRANSIT Sensory-driven Body Transformation Experiences On-the-move. UC3M.
+- With the collaboration of FUZZYGAB.4. UCLM
+- Project developed with the funding of CONACYT-FINBA. México; Medialab-Matadero. España."
