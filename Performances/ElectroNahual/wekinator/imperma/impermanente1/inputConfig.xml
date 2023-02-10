@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<OSCInputGroup>
+  <oscMessage>/helper</oscMessage>
+  <numInputs>7</numInputs>
+  <groupName>Inputs</groupName>
+  <inputNames>
+    <string>helper-1</string>
+    <string>helper-2</string>
+    <string>helper-3</string>
+    <string>helper-4</string>
+    <string>helper-5</string>
+    <string>helper-6</string>
+    <string>helper-7</string>
+  </inputNames>
+</OSCInputGroup>
