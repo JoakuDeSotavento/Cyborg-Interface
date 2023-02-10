@@ -34,5 +34,5 @@ Aquí encontraras el [contenido del workshop](https://docs.google.com/presentati
 
 
 - Suported by BODYinTRANSIT Sensory-driven Body Transformation Experiences On-the-move, MagicShoes and i_mBODY Lab at UC3M.
-- With the collaboration of FUZZYGAB.4. UCLM
+- With the collaboration of FUZZYGAB.4. UCLM.
 - Project developed with the funding of CONACYT-FINBA. México; Medialab-Matadero. España."
