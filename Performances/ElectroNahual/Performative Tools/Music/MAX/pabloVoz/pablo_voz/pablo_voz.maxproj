@@ -2,7 +2,7 @@
 	"name" : "pablo_voz",
 	"version" : 1,
 	"creationdate" : 3734342527,
-	"modificationdate" : 3756467335,
+	"modificationdate" : 3760687424,
 	"viewrect" : [ 61.0, 256.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,30 +10,19 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Karma_looper_Permanente_3.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
-,
-			"theorethical_DJ2_imper_4.maxpat" : 			{
+			"ElectroNahual-Karma-Looper.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"theorethical_DJ2_posiblesPresentes_2.maxpat" : 			{
+			"ElectroNahual-Samples.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"PA-Suxin-2.maxpat" : 			{
+			"SoniBand-SoniShoes.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/img-mov/git/PA-Study-Sound-Vib/MAX/PA-Suxin/patchers",
-					"projectrelativepath" : "../../../../../../../../PA-Study-Sound-Vib/MAX/PA-Suxin/patchers"
-				}
-
+				"local" : 1
 			}
 
 		}
@@ -41,22 +30,42 @@
 		"media" : 		{
 			"fuego.aif" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/PA-Study-Sound-Vib/MAX/PA-Suxin/patchers",
+					"projectrelativepath" : "../../../../../../../../PA-Study-Sound-Vib/MAX/PA-Suxin/patchers"
+				}
+
 			}
 ,
 			"icaro.aif" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/PA-Study-Sound-Vib/MAX/PA-Suxin/patchers",
+					"projectrelativepath" : "../../../../../../../../PA-Study-Sound-Vib/MAX/PA-Suxin/patchers"
+				}
+
 			}
 ,
 			"lluvia.aif" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/PA-Study-Sound-Vib/MAX/PA-Suxin/patchers",
+					"projectrelativepath" : "../../../../../../../../PA-Study-Sound-Vib/MAX/PA-Suxin/patchers"
+				}
+
 			}
 ,
 			"viento2.aif" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/PA-Study-Sound-Vib/MAX/PA-Suxin/patchers",
+					"projectrelativepath" : "../../../../../../../../PA-Study-Sound-Vib/MAX/PA-Suxin/patchers"
+				}
+
 			}
 ,
 			"splash2.aif" : 			{
@@ -122,6 +131,221 @@
 					"projectrelativepath" : "../../../../../../ilSoplo"
 				}
 
+			}
+,
+			"lattice01-026.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-025.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-024.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-023.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-022.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-021.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-020.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-019.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-018.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-017.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-016.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-015.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-014.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-013.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-012.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-011.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-010.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-009.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-008.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-007.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-006.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-005.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-004.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-003.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-002.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"lattice01-001.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-001.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-002.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-003.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-004.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-005.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-006.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-007.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-008.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-009.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-010.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-011.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-012.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-013.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-014.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-015.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electroNahual-016.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"electricidad.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
 			}
 
 		}

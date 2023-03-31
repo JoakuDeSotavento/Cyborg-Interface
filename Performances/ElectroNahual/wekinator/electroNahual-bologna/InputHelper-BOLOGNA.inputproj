@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<WekiInputHelperFileData>
+  <oscReceivePort>9000</oscReceivePort>
+  <oscSendPort>6449</oscSendPort>
+  <sendHostname>localhost</sendHostname>
+  <sendOscMessage>/helper</sendOscMessage>
+  <inputs>
+    <oscMessage>/helper</oscMessage>
+    <numInputs>10</numInputs>
+    <groupName>Inputs</groupName>
+    <inputNames>
+      <string>EMG_1</string>
+      <string>EMG_2</string>
+      <string>EMG_3</string>
+      <string>FSR_1</string>
+      <string>FSR_2</string>
+      <string>FSR_3</string>
+      <string>FSR_4</string>
+      <string>ACC_1</string>
+      <string>ACC_2</string>
+      <string>ACC_3</string>
+    </inputNames>
+  </inputs>
+  <outputs>
+    <outputs class="linked-list">
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>EMG_2_Avg1</name>
+        <index>1</index>
+        <windowSize>1</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>EMG_2_Avg1(2)</name>
+        <index>1</index>
+        <windowSize>1</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>FSR_4_Avg1(3)</name>
+        <index>6</index>
+        <windowSize>1</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.SecondOrderDifference>
+        <name>EMG_1_2ndOrderDiff</name>
+        <index>0</index>
+      </wekiinputhelper.Modifiers.SecondOrderDifference>
+      <wekiinputhelper.Modifiers.SecondOrderDifference>
+        <name>EMG_2_2ndOrderDiff</name>
+        <index>1</index>
+      </wekiinputhelper.Modifiers.SecondOrderDifference>
+      <wekiinputhelper.Modifiers.SecondOrderDifference>
+        <name>EMG_3_2ndOrderDiff</name>
+        <index>2</index>
+      </wekiinputhelper.Modifiers.SecondOrderDifference>
+      <wekiinputhelper.Modifiers.ExpressionInput>
+        <name>expression1</name>
+        <expression class="expr.BinaryExpr">
+          <variablesUsed>
+            <string>EMG_1</string>
+            <string>EMG_2</string>
+            <string>EMG_3</string>
+          </variablesUsed>
+          <rator>3</rator>
+          <rand0 class="expr.BinaryExpr">
+            <rator>0</rator>
+            <rand0 class="expr.BinaryExpr">
+              <rator>0</rator>
+              <rand0 class="expr.Variable">
+                <name>EMG_1</name>
+                <val>37.0</val>
+              </rand0>
+              <rand1 class="expr.Variable">
+                <name>EMG_2</name>
+                <val>216.0</val>
+              </rand1>
+            </rand0>
+            <rand1 class="expr.Variable">
+              <name>EMG_3</name>
+              <val>29.0</val>
+            </rand1>
+          </rand0>
+          <rand1 class="expr.LiteralExpr">
+            <v>3.0</v>
+          </rand1>
+        </expression>
+        <variables>
+          <expr.Variable reference="../../expression/rand0/rand0/rand0"/>
+          <expr.Variable reference="../../expression/rand0/rand0/rand1"/>
+          <expr.Variable reference="../../expression/rand0/rand1"/>
+        </variables>
+        <indexedVariables>
+          <wekiinputhelper.Modifiers.IndexedVar>
+            <originalVariable>EMG_1</originalVariable>
+            <unindexedName>EMG_1</unindexedName>
+            <delay>0</delay>
+          </wekiinputhelper.Modifiers.IndexedVar>
+          <wekiinputhelper.Modifiers.IndexedVar>
+            <originalVariable>EMG_2</originalVariable>
+            <unindexedName>EMG_2</unindexedName>
+            <delay>0</delay>
+          </wekiinputhelper.Modifiers.IndexedVar>
+          <wekiinputhelper.Modifiers.IndexedVar>
+            <originalVariable>EMG_3</originalVariable>
+            <unindexedName>EMG_3</unindexedName>
+            <delay>0</delay>
+          </wekiinputhelper.Modifiers.IndexedVar>
+        </indexedVariables>
+        <indexes>
+          <int>0</int>
+          <int>1</int>
+          <int>2</int>
+        </indexes>
+        <originalString>(EMG_1 + EMG_2 + EMG_3)/3</originalString>
+        <buffersForInputs>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+          <wekiinputhelper.Modifiers.CircularBuffer>
+            <length>1</length>
+          </wekiinputhelper.Modifiers.CircularBuffer>
+        </buffersForInputs>
+      </wekiinputhelper.Modifiers.ExpressionInput>
+    </outputs>
+    <numOutputTypes>7</numOutputTypes>
+    <dimensionality>7</dimensionality>
+    <hasDependencies>false</hasDependencies>
+  </outputs>
+  <inputTriggerer class="wekiinputhelper.TriggerOnTimes">
+    <c>
+      <type>NONE</type>
+      <howLong>ONCE</howLong>
+      <index>0</index>
+      <val>0.0</val>
+      <appliesTo>INPUT</appliesTo>
+    </c>
+    <runningListener class="wekiinputhelper.InputTriggerer$1">
+      <outer-class class="wekiinputhelper.TriggerOnTimes" reference="../.."/>
+    </runningListener>
+    <numMs>10</numMs>
+  </inputTriggerer>
+  <isSendingOriginalInputs>false</isSendingOriginalInputs>
+</WekiInputHelperFileData>
