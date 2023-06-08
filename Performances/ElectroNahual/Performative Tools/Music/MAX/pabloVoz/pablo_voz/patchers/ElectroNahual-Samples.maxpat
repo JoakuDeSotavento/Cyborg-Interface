@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 725.0 ],
+		"rect" : [ 1060.0, 300.0, 1444.0, 785.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 884.0, 612.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-386",
 					"maxclass" : "newobj",
@@ -2958,7 +2970,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
+									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -3176,8 +3188,8 @@
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 5,
-													"outlettype" : [ "", "float", "int", "int", "" ],
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 51.283386, 132.0, 179.0, 22.0 ],
 													"text" : "mubu.play data @loop 1"
 												}
@@ -3694,15 +3706,15 @@
 									"freeze" : 0,
 									"id" : "obj-30",
 									"layout" : 0,
+									"maintrack" : -1,
 									"maxclass" : "imubu",
 									"mousewheelscroll" : 0,
 									"name" : "data",
 									"numinlets" : 1,
-									"numoutlets" : 1,
+									"numoutlets" : 0,
 									"opacity" : 0.0,
 									"opacityprogressive" : 0,
 									"orientation" : 0,
-									"outlettype" : [ "" ],
 									"outputkeys" : 0,
 									"outputmouse" : 0,
 									"outputselection" : 0,
@@ -8501,8 +8513,7 @@
 													"id" : "obj-22",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 1004.5, 409.0, 146.0, 22.0 ],
 													"text" : "mubu.record data descrR"
 												}
@@ -8515,8 +8526,7 @@
 													"id" : "obj-16",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 962.5, 351.5, 144.0, 22.0 ],
 													"text" : "mubu.record data descrL"
 												}
@@ -8619,8 +8629,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 852.5, 215.5, 82.0, 35.0 ],
 													"text" : "mubu.record data angle-C"
 												}
@@ -8634,8 +8643,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 811.5, 256.5, 110.0, 35.0 ],
 													"text" : "mubu.record data accintensity-C"
 												}
@@ -8649,8 +8657,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 904.5, 174.5, 79.0, 35.0 ],
 													"text" : "mubu.record data fsr-C"
 												}
@@ -8664,8 +8671,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 768.5, 304.5, 82.0, 35.0 ],
 													"text" : "mubu.record data mag-C"
 												}
@@ -8679,8 +8685,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 716.5, 351.5, 82.0, 35.0 ],
 													"text" : "mubu.record data gyro-C"
 												}
@@ -8695,8 +8700,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 671.5, 398.5, 87.0, 35.0 ],
 													"text" : "mubu.record data accel-C"
 												}
@@ -8710,8 +8714,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 543.5, 215.5, 82.0, 35.0 ],
 													"text" : "mubu.record data angle-R"
 												}
@@ -8725,8 +8728,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 498.5, 256.5, 110.0, 35.0 ],
 													"text" : "mubu.record data accintensity-R"
 												}
@@ -8740,8 +8742,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 589.5, 176.5, 79.0, 35.0 ],
 													"text" : "mubu.record data fsr-R"
 												}
@@ -8755,8 +8756,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 453.5, 306.5, 82.0, 35.0 ],
 													"text" : "mubu.record data mag-R"
 												}
@@ -8770,8 +8770,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 401.5, 353.5, 82.0, 35.0 ],
 													"text" : "mubu.record data gyro-R"
 												}
@@ -8786,8 +8785,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 356.5, 400.5, 87.0, 35.0 ],
 													"text" : "mubu.record data accel-R"
 												}
@@ -8801,8 +8799,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 217.5, 215.5, 79.0, 35.0 ],
 													"text" : "mubu.record data angle-L"
 												}
@@ -8816,8 +8813,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 172.5, 256.5, 110.0, 35.0 ],
 													"text" : "mubu.record data accintensity-L"
 												}
@@ -8831,8 +8827,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 265.5, 178.5, 79.0, 35.0 ],
 													"text" : "mubu.record data fsr-L"
 												}
@@ -8846,8 +8841,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 129.5, 308.5, 82.0, 35.0 ],
 													"text" : "mubu.record data mag-L"
 												}
@@ -8861,8 +8855,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 77.5, 355.5, 82.0, 35.0 ],
 													"text" : "mubu.record data gyro-L"
 												}
@@ -8877,8 +8870,7 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 32.5, 402.5, 87.0, 35.0 ],
 													"text" : "mubu.record data accel-L"
 												}
@@ -9090,14 +9082,9 @@
 																	"id" : "obj-29",
 																	"linecount" : 4,
 																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numinlets" : 0,
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 898.0, 188.5, 387.0, 62.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data descrR 20 @predef yes @samplerate 441 @maxsize 3600s @matrixcols 9 @sampleoffset 19.38776 @info gui \"interface multiwave, thickness 1, colormode rainbow, fgcolor 1. 0. 0. 1, bounds -0.1 0.1,  showcolnames 1\""
 																}
 
@@ -9107,14 +9094,9 @@
 																	"id" : "obj-7",
 																	"linecount" : 4,
 																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numinlets" : 0,
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 898.0, 108.5, 382.0, 62.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data descrL19 @predef yes @samplerate 441 @maxsize 3600s @matrixcols 9 @sampleoffset 19.38776 @info gui \"interface multiwave, thickness 1, colormode rainbow, fgcolor 1. 0. 0. 1, bounds -0.1 0.1,  showcolnames 1\""
 																}
 
@@ -9272,13 +9254,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 46.0, 787.0, 562.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 17 angle-C @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9292,13 +9269,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 46.0, 747.0, 496.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 16 accintensity-C @matrixcols 4 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9312,13 +9284,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 46.0, 828.0, 566.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 18 fsr-C @matrixcols 2 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9332,13 +9299,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 708.5, 576.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 15 mag-C @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9352,13 +9314,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 671.5, 581.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 14 gyro-C @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 0, autobounds 1\" @predef yes"
 																}
 
@@ -9372,13 +9329,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 629.0, 580.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 13 accel-C @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 255 0 0, autobounds 1\" @predef yes"
 																}
 
@@ -9392,13 +9344,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 524.0, 562.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 11 angle-R @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9412,13 +9359,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 480.0, 496.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 10 accintensity-R @matrixcols 4 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9432,13 +9374,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 561.0, 566.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 12 fsr-R @matrixcols 2 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9452,13 +9389,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 439.5, 576.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 9 mag-R @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9472,13 +9404,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 402.5, 576.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 8 gyro-R @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 0, autobounds 1\" @predef yes"
 																}
 
@@ -9492,13 +9419,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 360.0, 580.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 7 accel-R @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 255 0 0, autobounds 1\" @predef yes"
 																}
 
@@ -9512,13 +9434,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 259.0, 562.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 5 angle-L @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9532,13 +9449,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 219.0, 496.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 4 accintensity-L @matrixcols 4 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9552,13 +9464,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 301.0, 561.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 6 fsr-L @matrixcols 2 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9572,13 +9479,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 179.5, 571.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 3 mag-L @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
 																}
 
@@ -9592,13 +9494,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 142.5, 571.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 2 gyro-L @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 0, autobounds 1\" @predef yes"
 																}
 
@@ -9612,13 +9509,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
+																	"numoutlets" : 0,
 																	"patching_rect" : [ 50.0, 100.0, 580.0, 35.0 ],
-																	"saved_object_attributes" : 																	{
-																		"verbose" : 1
-																	}
-,
 																	"text" : "mubu.track data 1 accel-L @matrixcols 3 @maxsize 3600s @sampleperiod 5ms @timetagged no @info gui markers @info gui \"fgcolor 255 0 0, autobounds 1\" @predef yes"
 																}
 
@@ -10052,17 +9944,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1273.0, 127.0, 110.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"externalfiles" : 1,
-														"parameter_enable" : 0,
-														"parameter_mappable" : 0,
-														"resamplefiles" : 0,
-														"savegui" : 0,
-														"snaprate" : 1000.0,
-														"verbose" : 1
-													}
-,
 													"text" : "mubu data"
 												}
 
@@ -14459,7 +14340,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2187.4583740234375, 1258.508673587158228, 360.0, 155.0 ],
-					"setfilter" : [ 0, 8, 1, 0, 0, 1577.39990234375, 10.760000228881836, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 8, 1, 0, 0, 7480.7587890625, 5.508928775787354, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -15947,7 +15828,7 @@
 					"patching_rect" : [ 866.4583740234375, 1123.012195587158203, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 690.350986480712891, 623.428582906723022, 360.0, 155.0 ],
-					"setfilter" : [ 0, 8, 1, 0, 0, 1577.39990234375, 10.760000228881836, 0.655332803726196, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 8, 1, 0, 0, 7480.7587890625, 5.508928775787354, 0.655332803726196, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -16415,7 +16296,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 408.0, 138.0, 972.0, 785.0 ],
+						"rect" : [ 408.0, 101.0, 972.0, 785.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -17052,7 +16933,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 877.0, 9.0, 58.0, 22.0 ],
+									"patching_rect" : [ 877.0, 0.0, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -17097,7 +16978,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-83",
-									"items" : [ "port", 16000, ",", "port", 17000, ",", "port", 16000, ",", "port", 17000, ",", "port", 16000, ",", "port", 17000, ",", "port", 16000, ",", "port", 17000, ",", "port", 16000, ",", "port", 17000, ",", "port", 16000, ",", "port", 17000, ",", "port", 16000, ",", "port", 17000, ",", "port", 16000, ",", "port", 17000 ],
+									"items" : [ "port", 16000, ",", "port", 17000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -17116,7 +16997,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 389.5, 382.0, 58.0, 22.0 ],
+									"patching_rect" : [ 389.5, 359.0, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -17945,8 +17826,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 203.0, 31.492471694946289, 418.0, 22.0 ],
-									"text" : "append port 2000, append port 3000, append port 12000, append port 13000"
+									"patching_rect" : [ 203.0, 40.492471694946289, 317.0, 22.0 ],
+									"text" : "append port 12000, append port 13000, append port 4000"
 								}
 
 							}
@@ -17965,7 +17846,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-66",
-									"items" : [ "port", 2000, ",", "port", 3000, ",", "port", 12000, ",", "port", 13000 ],
+									"items" : [ "port", 12000, ",", "port", 13000, ",", "port", 4000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -18450,20 +18331,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-64", 0 ],
-									"source" : [ "obj-71", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-75", 0 ],
-									"source" : [ "obj-72", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-82", 0 ],
 									"midpoints" : [ 328.166549682617188, 524.492471694946289, 328.166549682617188, 524.492471694946289 ],
 									"source" : [ "obj-74", 0 ]
@@ -18488,13 +18355,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-53", 0 ],
 									"source" : [ "obj-77", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-80", 0 ],
-									"source" : [ "obj-78", 0 ]
 								}
 
 							}
@@ -20826,6 +20686,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-256", 0 ],
+					"order" : 1,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-310", 1 ],
 					"source" : [ "obj-340", 0 ]
 				}
@@ -22177,23 +22053,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "orientation.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "pan2.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
+				"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers",
+				"patcherrelativepath" : "../../../../../../../../../i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "pipo.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "riotbitalino.maxpat",
@@ -22204,8 +22072,8 @@
 			}
 , 			{
 				"name" : "riots-bitalino-5new.maxpat",
-				"bootpath" : "~/Documents/img-mov/git/PA-Study-Sound-Vib/MAX/PA-Suxin/patchers",
-				"patcherrelativepath" : "../../../../../../../../../PA-Study-Sound-Vib/MAX/PA-Suxin/patchers",
+				"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/embodyment-Workshops/Max/PA-Suxin/patchers",
+				"patcherrelativepath" : "../../../../../../../../../i_mBODY-Sonification/embodyment-Workshops/Max/PA-Suxin/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22232,7 +22100,8 @@
 			}
 , 			{
 				"name" : "vz.midictrlr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers",
+				"patcherrelativepath" : "../../../../../../../../../i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
