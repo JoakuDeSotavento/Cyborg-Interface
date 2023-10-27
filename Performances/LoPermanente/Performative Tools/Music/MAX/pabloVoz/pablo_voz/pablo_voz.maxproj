@@ -2,7 +2,7 @@
 	"name" : "pablo_voz",
 	"version" : 1,
 	"creationdate" : 3734342527,
-	"modificationdate" : 3748269904,
+	"modificationdate" : 3779182649,
 	"viewrect" : [ 61.0, 256.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -24,6 +24,16 @@
 			"theorethical_DJ2_posiblesPresentes_2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"Joakinator-butoh-CDMX-23.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers",
+					"projectrelativepath" : "../../../../../../../../i_mBODY-Sonification/embodyment-Workshops/Max/embodyment_Workshop/patchers"
+				}
+
 			}
 
 		}
@@ -140,5 +150,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 0
+	"viewmode" : 0,
+	"includepackages" : 0
 }
