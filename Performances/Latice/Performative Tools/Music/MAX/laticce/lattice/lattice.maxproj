@@ -2,8 +2,8 @@
 	"name" : "lattice",
 	"version" : 1,
 	"creationdate" : 3735292284,
-	"modificationdate" : 3749622006,
-	"viewrect" : [ 373.0, 207.0, 300.0, 500.0 ],
+	"modificationdate" : 3781282800,
+	"viewrect" : [ 605.0, 207.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -34,6 +34,26 @@
 			"RIoT_begining.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"Joakinator-Lattice-Virtual.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/patchers",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/patchers"
+				}
+
+			}
+,
+			"Joakinator-Lattice-Oct_2023.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/patchers",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/patchers"
+				}
+
 			}
 
 		}
@@ -168,10 +188,174 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+,
+			"electroNahual-016.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-015.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-014.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-013.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-012.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-011.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-010.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-009.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-008.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-007.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-006.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-005.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-004.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-003.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-002.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
+,
+			"electroNahual-001.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/img-mov/git/Cyborg-Interface/Performances/embodyment-Workshops/Max/embodyment_Workshop/media",
+					"projectrelativepath" : "../../../../../../embodyment-Workshops/Max/embodyment_Workshop/media"
+				}
+
+			}
 
 		}
 ,
 		"data" : 		{
+
+		}
+,
+		"externals" : 		{
 
 		}
 
@@ -191,5 +375,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 0
+	"viewmode" : 0,
+	"includepackages" : 0
 }

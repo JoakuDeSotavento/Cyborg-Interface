@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <WekiInputHelperFileData>
-  <oscReceivePort>10000</oscReceivePort>
+  <oscReceivePort>8000</oscReceivePort>
   <oscSendPort>6450</oscSendPort>
   <sendHostname>localhost</sendHostname>
   <sendOscMessage>/helper</sendOscMessage>

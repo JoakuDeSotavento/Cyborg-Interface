@@ -1,0 +1,40 @@
+// Xcode target configuration settings for the Max 5 SDK
+// Used as the basis for Xcode projects to build Max externals.
+//
+// Changes to the settings in this file will be applied to all SDK examples
+// To change settings for only one of the examples, override the settings using
+// Xcode's target inspector.
+//
+// by Timothy Place
+// Copyright © 2008, Cycling '74
+
+
+// Name & Version
+PRODUCT_NAME = $(PROJECT_NAME)
+
+
+// Paths
+COMPONENTS_DIR=../common
+MAX_FRAMEWORK_DIR=$(COMPONENTS_DIR)/maxmix/maxapi/max7
+MAX_HEADERS_DIR = $(MAX_FRAMEWORK_DIR)/max-includes
+HEADER_SEARCH_PATHS = $(MAX_HEADERS_DIR)
+FRAMEWORK_SEARCH_PATHS = "$(MAX_HEADERS_DIR)""
+
+DSTROOT = $(PROJECT_DIR)/../../build-max5
+
+// (This next path is relative to DSTROOT)
+INSTALL_PATH = /
+
+
+// Special Files
+GCC_PREFIX_HEADER = $(MAX_FRAMEWORK_DIR)/max-includes/macho-prefix.pch
+
+MACOSX_DEPLOYMENT_TARGET = 10.7
+
+OTHER_LDFLAGS = -framework MaxAPI -Wl,-U,_object_new_imp,-U,_object_method_imp
+
+// Static Configuration (don't change these)
+WRAPPER_EXTENSION = mxo;
+WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas
+DEPLOYMENT_LOCATION = YES
+GENERATE_PKGINFO_FILE = YES

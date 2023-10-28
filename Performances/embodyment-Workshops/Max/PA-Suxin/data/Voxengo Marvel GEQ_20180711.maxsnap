@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Voxengo Marvel GEQ",
+	"origin" : "Marvel GEQ.vst",
+	"type" : "VST",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "Marvel GEQ.vst",
+		"plugindisplayname" : "Voxengo Marvel GEQ",
+		"pluginsavedname" : "~/Desktop/Magic/Magicshoes_Max/Marvel GEQ.vst",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "655.CMlaKA....fQPMDZ....ADiM3DF...P.....GPTYlEVcrQG..............................HvT.....................DFbxMmeH...GB.EBfGmiGFXfACMyhDsxkTSKwRyoDdAxmCf3zKJ+RKn3TywLfrECHNwRSIy70K27Sw2DyLO8fIKi.kADlAnzvXCB.xjxLuhKIw7RNUcyKwbS0CfBHMFFEJJgQjLGrgU.FCQAY34qaAIVTh4VLDmCXCn3y.TBkwzRvlRQ2v4.I1rADGbIoVTp4yDRhZDyHwwXVPhiIrhDGSYCINlwNRbLGY6vBXb.YEfLYPFHqPsb1g5fDBSOZl4kdEfBKHjuDn5PO9gCFvE3C1iJMCNfJMGvokBEWTl4oaxYjXd4kZNPBTKGn0nAdbYnqdziDD.M99fb3ePvB+AQ6oeviAfvEdb.DtviEfvEd7.DtviIfv0BNQgqkbAkKKf4ZnAbiJeC4AU9FwKp7MlOT4aB+nx2TAPkuYv3iujBfbhfbWfbKfreP1IH6genAahfdDCvDAk.LQPU.EWI7Gk.Uk3N4BFIKHZ.pIfysXfrxrnhITBXXpi3S.S7.TK6.nOGl2uZFveYGHoTZQHkzn3tJNi7KW2DyIGXYWJ1SfRqIdbcXnA7U3LnXEvFQQkkZNt6Zf5kNPCqXeXDawJXpNjMMVPwjg36AkZ7A4Fj71bS9cfXoa7NVuwBEF8hgPP6SA2s8JE9BDMMH2.opG922NVl22783zMPp9IwvHTFZ8lF4BPYTg.gzvTK9hG4GhM3eok3N35kAR.JchrXynQVQDJFDF.TYMETTpEmZIfKt1GfbkDCyFIEfuJuAUNFzVY.SH.BqOhlB"
+	}
+
+}
