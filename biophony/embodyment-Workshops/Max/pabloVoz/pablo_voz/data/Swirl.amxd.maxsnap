@@ -1,0 +1,31 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Swirl.amxd",
+	"origin" : "Swirl.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Swirl.amxd",
+		"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Swirl/Swirl.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"in_level" : 0.354330708661417,
+				"left_delay" : 54.024564929133895,
+				"left_feedback" : 0.9,
+				"left_moddepth" : 3.118110236220469,
+				"left_modfreq" : 0.811023622047244,
+				"right_delay" : 54.712438944882038,
+				"right_feedback" : 0.9,
+				"right_moddepth" : 3.10122834645669,
+				"right_modfreq" : 0.913385826771654,
+				"wet_dry" : 100.0
+			}
+
+		}
+
+	}
+
+}
