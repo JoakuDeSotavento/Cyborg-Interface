@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<WekiInputHelperFileData>
+  <oscReceivePort>9000</oscReceivePort>
+  <oscSendPort>6460</oscSendPort>
+  <sendHostname>localhost</sendHostname>
+  <sendOscMessage>/helper</sendOscMessage>
+  <inputs>
+    <oscMessage>/helper</oscMessage>
+    <numInputs>7</numInputs>
+    <groupName>Inputs</groupName>
+    <inputNames>
+      <string>emg_1</string>
+      <string>emg_2</string>
+      <string>emg_3</string>
+      <string>felx_1</string>
+      <string>flex_2</string>
+      <string>flex_3</string>
+      <string>felx_4</string>
+    </inputNames>
+  </inputs>
+  <outputs>
+    <outputs class="linked-list">
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_1_Avg1</name>
+        <index>0</index>
+        <windowSize>1</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_2_Avg1</name>
+        <index>1</index>
+        <windowSize>1</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_3_Avg1</name>
+        <index>2</index>
+        <windowSize>1</windowSize>
+        <op class="wekiinputhelper.Modifiers.AverageWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+      <wekiinputhelper.Modifiers.SecondOrderDifference>
+        <name>emg_1_2ndOrderDiff</name>
+        <index>0</index>
+      </wekiinputhelper.Modifiers.SecondOrderDifference>
+      <wekiinputhelper.Modifiers.SecondOrderDifference>
+        <name>emg_2_2ndOrderDiff</name>
+        <index>1</index>
+      </wekiinputhelper.Modifiers.SecondOrderDifference>
+      <wekiinputhelper.Modifiers.SecondOrderDifference>
+        <name>emg_3_2ndOrderDiff</name>
+        <index>2</index>
+      </wekiinputhelper.Modifiers.SecondOrderDifference>
+      <wekiinputhelper.Modifiers.WindowedOperation>
+        <name>emg_1_StdDev100</name>
+        <index>0</index>
+        <windowSize>100</windowSize>
+        <op class="wekiinputhelper.Modifiers.StdDevWindowOperation"/>
+      </wekiinputhelper.Modifiers.WindowedOperation>
+    </outputs>
+    <numOutputTypes>7</numOutputTypes>
+    <dimensionality>7</dimensionality>
+    <hasDependencies>false</hasDependencies>
+  </outputs>
+  <inputTriggerer class="wekiinputhelper.TriggerOnTimes">
+    <c>
+      <type>NONE</type>
+      <howLong>ONCE</howLong>
+      <index>0</index>
+      <val>0.0</val>
+      <appliesTo>INPUT</appliesTo>
+    </c>
+    <runningListener class="wekiinputhelper.InputTriggerer$1">
+      <outer-class class="wekiinputhelper.TriggerOnTimes" reference="../.."/>
+    </runningListener>
+    <numMs>5</numMs>
+  </inputTriggerer>
+  <isSendingOriginalInputs>false</isSendingOriginalInputs>
+</WekiInputHelperFileData>
