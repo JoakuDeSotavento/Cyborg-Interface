@@ -1,2 +1,2 @@
-#define SECRET_SSID "lattice"
-#define SECRET_PASS "joakinator16180"
+#define SECRET_SSID "Invisible"
+#define SECRET_PASS "Invisible"
